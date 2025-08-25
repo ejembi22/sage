@@ -296,7 +296,7 @@
   width: 375px;
   height: 315px;
 }
-.certificateimage {
+.certificateimage{
   width: 375px;
   height: 315px;
 }
@@ -1349,14 +1349,553 @@ ul.faq-list li::marker {
 }
 
 
+/* View all courses page styling  */
+.filtertext{
+  font-size: 24px;
+  font-family: 'GilorySemiBold';
+  font-weight: 400;
+  color: #000000;
+  padding-left: 6em !important;
+  padding-top: 1em !important;
+}
+.availablecoursestext{
+  font-size: 24px;
+  font-family: 'GilorySemiBold';
+  font-weight: 400;
+  color: #000000;
+}
+.availablecoursesandsearchcontainer{
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2em !important;
+  
+}
+.searchandbuttoncontainer{
+  border: 1px solid #000000;
+  width: 270px;
+}
+.viewallcoursessearchinput{
+  border: none;
+  outline: none;
+  padding: 2px !important;
+}
+.viewallcoursessearchinput::placeholder{
+font-size: 12px;
+font-family: 'GilroyLight';
+padding: 1em !important;
+}
+.availablecoursesearchbutton{
+  background-color: #9B0000;
+  color: #FFFFFF;
+  width: 90px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  
+  
+  
+}
+.viewallcoursessearchbutton{
+  border: none;
+  outline: none;
+ background-color: #9B0000;
+ color:#FFFFFF ;
 
+}
+.availablecoursescheckbox{
+  width: 18px;
+  height: 18px;
+  border: 2px solid #9B0000;
+  appearance: none;   /* remove default checkbox style */
+  cursor: pointer;
+  position: relative;
+}
+.availablecoursescheckbox:checked{
+background-color: #9B0000;
+}
+.availablecoursesfiltertittle{
+  font-size: 16px;
+  font-family: 'GilorySemiBold';
+  font-weight: 400;
+  color: #000000;
+}
+.availablecoursesfiltertext{
+  font-size: 16px;
+  font-family:'GilroyRegular' ;
+}
+.seemoretext{
+  font-size: 16px;
+  color: #9B0000;
+  font-family: 'GilorySemiBold';
+  padding-left: 5em !important;
+}
+.viewallavailablecoursesgeneralcontainer{
+  padding-left: 3em !important;
+  padding-top: 4em !important;
+}
 
+.viewallcoursesavailableimage{
+  width: 270px;
+  height: 276px;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  border-radius: 27px 5px 17px 5px;
+}
+.availablecoursescontenttext{
+  font-size: 20.08px;
+  font-family: 'GilroySemiBold';
+  font-weight: 400;
+  color: #232323;
+}
+.coursescertificatecontainer{
+  align-items: center;
+  font-size: 13.39px;
+  font-family:'GilroyLight';
+}
+.courseprice{
+  font-size: 10px;
+  font-family: 'GilroyRegular';
+  text-decoration: line-through;
+  padding-left: 4em !important;
+}
+.Freetext{
+  font-size: 13.39px;
+  font-family: 'GilroySemiBold';
+  color: #232323;
+  padding-left: 6.5em !important;
+}
+.viewcoursetext{
+  color: #9B0000;
+  font-family: 'GilroyBold';
+  font-size: 13.39px;
+}
+.availablecoursescontentcontainer{
+ border: 2px solid #ffffff;
+  width: 290px;
+  height: 450px;
+  border-radius: 17px 3px 17px 5px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  margin-top: 15px !important;
+}
+.coursesavailablecontentsdetials{
+  padding-left: 20px !important;
+}
+.availablecoursessecondsectioncontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 5px;
+ 
+}
+.viewallcoursescarouselsbutton{
+  align-items: center;
+  font-size: 12px;
+  font-family: 'GilroySemiBold';
+  color: #4E4E4E;
+}
+.viewallcoursescarousels{
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  width: 33px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px !important;
+}
+.avaialblecoursescarouselgeneralcontainer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em !important;
+  padding-right: 1em !important;
+}
+.rightchevron{
+  border: 1px solid #9B0000;
+  width: 33px;
+  height: 31px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #9B0000;
+  color: #FFFFFF;
+   margin-left: 5px !important;
 
+}
+.leftchevron{
+  border: 1px solid #9B0000;
+  width: 33px;
+  height: 31px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #9B0000;
+  color: #FFFFFF;
+   margin-left: 5px !important;
+   opacity: 40%;
+}
 
+/* Verify Out student Page styling */
+.verifystudenttext{
+  font-size: 64px;
+  font-family: 'GilroyBlack';
+  color: #011F5B;
+}
+.verifystudentspantext{
+  color: #9B0000;
+}
+.verifycertificatestext{
+  font-size: 16px;
+  font-family: 'GilroySemiBold';
+  color: #4E4E4E;
+  width: 380px;
+}
+.verifystudentinputandsearchcontainer{
+border: 1px solid #F0F0F0;
+  width: 297px;
+  margin-top: 2em !important;
+}
+.verifystudentinput{
+  border: none;
+  outline: none;
+  padding: 2px !important;
+  background-color: #F0F0F0;
+ 
+}
+.verifystudentsearchbutton{
+  background-color: #9B0000;
+  color: #FFFFFF;
+  width: 110px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.verifystudentinput::placeholder{
+font-size: 12px;
+font-family: 'GilroyLight';
+padding: 1em !important;
+background-color: #F0F0F0;
+}
+.verifystudentimage{
+  width: 80%;
+}
+.verifystudentpagegeneralcontainer{
+  align-items: center;
+  padding-left: 3em !important;
+  padding-top: 1em !important;
+  background-color: #F0F0F0;
+}
 
+/* certicate page styling */
+.checkcircle{
+  font-size: 68px;
+  color: #06C270;
+  
+}
 
+.studentverificationtext{
+font-size: 32px;
+font-family: 'GilroyMedium';
+width: 365px;
+text-align: center;
 
+}
+.studentverificationcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.check-wrapper {
+  position: relative;
+  display: inline-block;
+}
 
+.checkcircle {
+  font-size: 50px;     /* size of icon */
+  color: #06C270;        /* icon color */
+  background: white;   /* clean background inside */
+  border-radius: 50%;  
+  position: relative;
+  z-index: 2;          /* icon stays on top */
+}
+
+/* animated border behind the check */
+.circle-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;          /* match icon size */
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #06C270;
+  z-index: 1;
+  animation: zoomBorder 1.5s infinite;
+}
+
+/* keyframes for zoom out effect */
+@keyframes zoomBorder {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.5); /* border zooms out */
+    opacity: 0;            /* fades out */
+  }
+}
+.viewcertificategeneralcontainer{
+  align-items: center;
+  padding-top: 4em !important;
+}
+.viewcertificatetext{
+  font-size: 32px;
+  font-family: 'GilroyBold';
+  color: #011F5B;
+}
+.certificateimagecontainer{
+  padding-top: 8em !important;
+}
+.certificateimagetwo{
+  width: 749.05px;
+  height: 1060px;
+}
+
+/* Meet Our Partner Page */
+
+.meetpartnerstext{
+  font-size: 64px;
+  font-family: 'GilroyBlack';
+  color: #011F5B;
+}
+.meetpartnerspantext{
+  color: #9B0000;
+}
+.distinguishedpartnerstext{
+  font-size: 16px;
+  font-family: 'GilroySemiBold';
+  width: 380px;
+}
+.meetpartnersgeneralcontainer{
+  align-items: center;
+  padding-left:3em !important ;
+  padding-top: 2em !important;
+  background-color: #FFFFFF;
+}
+.partnersandaccreditorstext{
+  font-size: 40px;
+  font-family: 'GilroySemiBold';
+  color: #000000;
+}
+.pluralcodetittle{
+  font-size: 38.1px;
+  font-family: 'GilroySemiBold';
+  color: #9B0000;
+}
+.pluralcodedescriptions{
+  font-size: 16.93px;
+  font-family: 'GilroyRegular';
+  width: 720px;
+}
+.partnerscardcontainer{
+  align-items: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 25.4px;
+  width: 1085px;
+  padding: 24px !important;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.05);
+  margin-top: 2em !important;
+}
+.ourpartnerscontentcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em !important;
+}
+
+/* About sage institue page styling */
+.thesageinstituteabout{
+  font-size: 64px;
+  font-family: 'GilroyBlack';
+  color: #011F5B;
+  width: 640px;
+}
+
+.thesageinstituteaboutspantext{
+  color: #9B0000;
+}
+.thissageinsitituteaboutdescription{
+  font-size: 16px;
+  font-family: 'GilorySemiBold';
+  width: 427px;
+  color: #4E4E4E;
+
+}
+
+.aboutsageimage{
+  width: 544px;
+ 
+}
+.theaboutsagegeneralcontainer{
+  align-items: center;
+  padding-left: 3em !important;
+  background-color: #FFFDFA;
+}
+.theaboutsagesecondcontainer{
+  padding-left: 2em !important;
+  padding-top: 3em !important;
+}
+
+.ourculturetext{
+  font-size: 40px;
+  font-family: 'GilorySemiBold';
+  color: #000000;
+}
+
+.sagelayered-box {
+  position: relative;
+  width: 47px;
+  height: 49px;
+ 
+}
+
+.sagelayer {
+  position: absolute;
+  width: 35px;
+  height: 44px;
+  border-radius: 13px 0px 17px 0px;
+}
+
+.sagelayer1 {
+  background-color: #011F5B; 
+  top: 12px;
+  left: 2px;
+  z-index: 1;
+}
+
+.sagelayer2 {
+  background-color: #9B0000; 
+  top: 19px;
+  left: 6px;
+  z-index: 2;
+}
+
+.sagewhoiscontentcontainer{
+  border: 2px solid #FFFFFF;
+  width: 257px;
+  height: 241px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+
+}
+.aboutussagetitletext{
+  font-size: 32px;
+  font-family: 'GilroyMedium';
+  color: #232323;
+}
+
+.sagelayer3 {
+  background-color:#9B0000 ; 
+  top: 12px;
+  left: 2px;
+  z-index: 1;
+}
+
+.sagelayer4 {
+  background-color: #011F5B; 
+  top: 19px;
+  left: 6px;
+  z-index: 2;
+}
+.sagelayergeneralcontainer{
+  display: flex;
+  gap: 30px;
+  margin-top: 4em !important;
+}
+.ourculturegeneralcontainer{
+  padding-left: 4em !important;
+  padding-top: 4em !important;
+  background-color: #FFFFFF;
+  padding-bottom: 7em !important;
+}
+.impactimage{
+  width: 530px;
+  height: 500px;
+ 
+
+}
+.ourimpactext{
+  font-size: 36px;
+  font-family: 'GilorySemiBold';
+  color: #011F5B;
+
+}
+
+.overtheyearstext{
+  font-size: 16px;
+  font-family: 'GilroyRegular';
+  width: 640px;
+  color: #4E4E4E;
+}
+.ourimpactpartnersbutton{
+  width: 134px;
+  height: 35px;
+  outline: none;
+  border-radius: 4px;
+  background-color: #9B0000;
+  border: none;
+  color:#FFFFFF ;
+}
+
+.aboutsageourimpactsecondsectioncontainer{
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  width: 742px;
+  height: 271px;
+  padding-left: 40px !important;
+  padding-top: 40px !important;
+  position: absolute;
+  left: 495px;
+  box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  
+  
+}
+.aboutsageourimpactgeneralcontainer{
+  align-items: center;
+  padding-left: 3em !important;
+  background-color: #FFFDFA;
+  padding-top: 5em !important;
+  padding-bottom: 5em !important;
+}
+
+.aboutreachouttext{
+  font-size: 48px;
+  font-family: 'GilorySemiBold';
+  color: #011F5B;
+}
+.reachoutcontactinformation{
+  font-size: 16px;
+  font-family: 'GilroyMedium';
+  color: #4E4E4E;
+  padding-left: 10px !important;
+}
+.contactinfoandiconcontainer{
+  align-items: center;
+  padding-top: 15px !important;
+}
+.reachouttousgeneralcontainer{
+background-color: #FFFFFF;
+height: 840px;
+align-items: center;
+padding-left: 3em !important;
+}
 
 
 
@@ -1889,6 +2428,148 @@ padding-left: 30px !important;
   
 }
 
+
+/* View all courses available page for small screen */
+.availablecoursesandsearchcontainer{
+ flex-direction: column;
+}
+
+.filtertext{
+  padding-left: 3em !important;
+}
+
+.availablecoursessecondsectioncontainer{
+  display: grid;
+  grid-template-columns: repeat(1, 8fr);
+  gap: 5px;
+ 
+}
+.availablecoursesandsearchcontainer{
+  padding-top: 20px !important;
+}
+
+/* Verify student page for small screen */
+.verifycertificatestext{
+  width: 300px;
+}
+
+.verifystudenttext{
+  font-size: 44px;
+  
+}
+
+/* Certificate page styling */
+
+.certificateimage{
+  width: 80%;
+}
+.certificateimagecontainer{
+  padding-left: 2em !important;
+  padding-top: 2em !important;
+}
+
+.partnerimage{
+  width: 80%;
+  padding-top: 1em !important;
+}
+
+.distinguishedpartnerstext{
+  font-size: 16px;
+  font-family: 'GilroySemiBold';
+  width: 300px;
+}
+
+.partnerscardcontainer{
+ 
+  width: 350px;
+  height: 700px;
+  padding: 24px !important;
+ 
+  margin-top: 2em !important;
+}
+.partnerscardcontainer{
+  flex-direction: column;
+}
+.pluralcodedescriptions{
+   width: 320px;
+}
+.pluralcodetextcontainer{
+  padding-top: 2em !important;
+}
+.pluralcodelogo{
+  padding-top: 2em !important;
+}
+.partnersandaccreditorstext{
+  padding-top: 1em !important;
+}
+
+/* About sage institue page styling */
+.thesageinstituteabout{
+  font-size: 64px;
+  font-family: 'GilroyBlack';
+  color: #011F5B;
+  width: 320px;
+}
+.aboutsageimage{
+  width: 90%;
+ 
+}
+
+.thissageinsitituteaboutdescription{
+  font-size: 16px;
+  font-family: 'GilorySemiBold';
+  width: 327px;
+  color: #4E4E4E;
+
+}
+
+.sagelayergeneralcontainer{
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 4em !important;
+}
+
+.sagewhoiscontentcontainer{
+  
+  width: 90%;
+}
+
+.ourculturegeneralcontainer{
+  padding-left: 2em !important;
+
+}
+
+.aboutsageourimpactsecondsectioncontainer{
+
+  width: 90%;
+  height: 540px; 
+  position: relative;
+  left: 0px;
+  margin-top: 2em !important;   
+  
+  
+}
+
+.overtheyearstext{
+  width: 220px;
+ 
+}
+
+.impactimage{
+  width: 90%;
+  height: 300px;
+ 
+}
+
+.aboutsageourimpactgeneralcontainer{
+  padding-left: 2em !important;
+
+}
+
+.reachouttousimage{
+  width: 90%;
+}
+
 }
 
 
@@ -2416,7 +3097,792 @@ padding-left: 30px !important;
   font-size: 28px;
   
 }
+
+
+/* View all courses available page for ipad screen */
+.availablecoursesandsearchcontainer{
+ flex-direction: column;
+ padding-top: 20px !important;
 }
+
+.availablecoursessecondsectioncontainer{
+  display: grid;
+  grid-template-columns: repeat(1, 8fr);
+  gap: 5px;
+ 
+}
+
+/* Verify student page for ipad screen */
+.verifycertificatestext{
+  width: 300px;
+}
+
+.verifystudenttext{
+  font-size: 44px;
+  
+}
+
+/* Certificate page styling */
+
+.certificateimage{
+  width: 80%;
+}
+.certificateimagecontainer{
+  padding-left: 2em !important;
+  padding-top: 2em !important;
+}
+
+.partnerimage{
+  width: 90%;
+  padding-top: 3em !important;
+}
+
+
+.partnerscardcontainer{
+ width: 700px;
+  height: 700px;
+  padding: 24px !important;
+ 
+  margin-top: 2em !important;
+}
+.partnerscardcontainer{
+  flex-direction: column;
+}
+.pluralcodedescriptions{
+   width: 320px;
+}
+.pluralcodetextcontainer{
+  padding-top: 2em !important;
+}
+.pluralcodelogo{
+  padding-top: 2em !important;
+}
+.partnersandaccreditorstext{
+  padding-top: 1em !important;
+}
+
+/* About sage institue ipad page styling */
+
+.aboutsageimage{
+  width: 90%;
+ 
+}
+
+.sagelayergeneralcontainer{
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 4em !important;
+  align-items: center;
+}
+
+.sagewhoiscontentcontainer{
+  
+  width: 90%;
+  
+
+}
+
+.ourculturegeneralcontainer{
+  padding-left: 1em !important;
+
+}
+
+.aboutsageourimpactsecondsectioncontainer{
+
+  width: 90%;
+  height: 340px; 
+  position: relative;
+  left: 0px;
+  margin-top: 2em !important;
+  
+ 
+  
+  
+}
+
+.overtheyearstext{
+ 
+  width: 500px;
+ 
+}
+
+.impactimage{
+  width: 90%;
+  height: 500px;
+ 
+}
+
+.aboutsageourimpactgeneralcontainer{
+  padding-left: 3em !important;
+
+}
+
+.reachouttousimage{
+  padding-top: 3em !important;
+}
+
+
+
+}
+
+@media(min-width:600px) and (max-width:700px){
+
+  
+   #menuicon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .nav-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 1em;
+    align-items: flex-start;
+  }
+
+  .nav-center {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .nav-right {
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+  .nav-left img {
+    height: 40px;
+    padding-left: 0.5em;
+  }
+
+  .dropdown {
+    padding: 15px 20px !important;
+    z-index: 999;
+  }
+
+  .dropdown-columns ul {
+    padding-left: 1em !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0em !important;
+  }
+
+  .dropdown-columns {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  /* page styling */
+  .upskilltext {
+    width: 350px;
+  }
+
+  .learncuttingedgetext {
+    width: 300px;
+  }
+
+  .introductioncontainer {
+    height: 700px;
+    width: 100%;
+  }
+
+  .ourtrainingcontentcontainer {
+    flex-direction: column;
+  }
+  .ourtraininggeneralcontainer {
+    background-color: aliceblue;
+    height: max-content;
+    padding-bottom: 5em !important;
+  }
+
+  .ourtrainingcontent {
+    width: 100%;
+    height: 550px;
+  }
+  .certificateimage {
+    width: 100%;
+    height: 315px;
+  }
+  .sageimage {
+    width: 100%;
+    height: 315px;
+  }
+
+  .minimba {
+    width: 100%;
+    height: 315px;
+  }
+  .ourtrainingdescription {
+    width: 100%;
+  }
+
+  /* certificate coourse styling */
+  .certificatecoursescontainer {
+    flex-direction: column;
+  }
+
+  .certificatecoursesecondsection {
+    flex-direction: column;
+  }
+  .certificatecoursegeneralcontainer {
+    padding-top: 6em !important;
+    padding-left: 0px !important;
+    background-color: white;
+  }
+  .certificatecoursescontainer {
+    align-items: center;
+  }
+  .certificatecoursesecondsection {
+    align-items: center;
+  }
+  .certificatecorsescontent{
+    width: 80%;
+    margin-top: 20px !important;
+  }
+  .certificatecourseimage{
+    width: 95%;
+  }
+
+  /* why sage styling */
+  .whysageimage {
+    width: 80%;
+  }
+  .whysageimagecontainerone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Globallyaccreditedcontainer {
+    width: 80%;
+    height: fit-content;
+    padding-bottom: 30px !important;
+    margin-inline: auto !important;
+  }
+  .globalaccrediteddescription {
+    width: 90%;
+  }
+  .learnskillcontainer {
+    width: 90%;
+    height: max-content;
+    margin-left: 0em !important;
+    padding-bottom: 30px !important;
+  }
+  .learnskilldescription {
+    width: 90%;
+  }
+  .whysagesecondsection {
+    border: 1px solid #011f5b;
+    width: 90%;
+    height: max-content;
+    padding-bottom: 30px !important;
+  }
+  .Whysagedescription {
+    width: 90%;
+  }
+  .careerbenefitcontainer {
+    margin-inline: auto !important;
+    width: 80%;
+    height: max-content;
+    padding-bottom: 30px !important;
+  }
+
+  .careerbenefitdescription {
+    width: 90%;
+  }
+  .whysageimage2 {
+    width: 90%;
+    height: 350px;
+    border-radius: 24px;
+  }
+  .whysageimagecontainer {
+    padding-left: 0em !important;
+  }
+
+  .Whysagecontainer {
+    padding-left: 0px !important;
+    padding-top: 6em !important;
+    background-color: aliceblue;
+    margin-top: 5em !important;
+    padding-bottom: 2em !important;
+  }
+
+  /* student review  */
+  .studentimage {
+    width: 90%;
+  }
+  .studentremark {
+    width: 80%;
+    font-family: "GilroySemiBold";
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .quotetwocontainer {
+    padding-left: 11em !important;
+  }
+  .whattext {
+    font-size: 30px;
+    width: 70%;
+    padding-top: 20px !important;
+  }
+
+  .studentreviewnumbers {
+    width: 20%;
+    height: 70px;
+    padding: 15px !important;
+    margin-right: 0px !important;
+  }
+  .ourstudentsecondsection {
+    padding-left: 0em !important;
+  }
+
+  .studentreviewgeneralcontainer {
+    justify-content: flex-start;
+  }
+  .ourstudentcontainer {
+    flex-direction: column;
+    padding-left: 0em !important;
+    padding-top: 2em !important;
+  }
+  .ourstudent-generalcontainer {
+    padding-left: 2em !important;
+    padding-top: 4em !important;
+  }
+/* Student section styling ipad */
+  .videoimagecontainer {
+    width: 100%;
+  }
+
+  .playbutton {
+ 
+  top: 55%;
+ 
+} 
+
+  .sageminibadescription {
+    width: 90%;
+    padding-top: 40px !important;
+  }
+  .sagestudentimage {
+    margin-left: 0px !important;
+  }
+
+  .standouttext {
+    width: 100%;
+  }
+
+  .sagminimbageneralcontainer {
+    padding-top: 4em !important;
+  }
+
+  /* realworldcase styling */
+  .realworlddescription {
+    width: 90%;
+  }
+  .realworlcaselogocontainter {
+    flex-direction: column;
+  }
+  .realworlcaselogocontainter2 {
+    flex-direction: column;
+  }
+  .realworlcaselogocontainter3 {
+    flex-direction: column;
+    padding-top: 2em !important ;
+    gap: 40px;
+  }
+  .realworlgeneralcontainer {
+    height: fit-content;
+    padding-bottom: 5em !important;
+  }
+  .realworldtext {
+    width: 90%;
+  }
+
+  /* frequently asked question text */
+  .frequentlyaskedquestiontext {
+    font-size: 34px;
+  }
+
+  .faq-question {
+    width: 90%;
+    height: 120px;
+  }
+
+  .faq-answer {
+    width: 90%;
+    height: 400px;
+    padding-left: 30px !important;
+  }
+  .faqanswerdescription {
+    font-family: "Lato";
+    font-size: 16px;
+    width: 100%;
+    padding-left: 15px !important;
+  }
+
+  .fagsagetitle {
+    font-family: "GilroyBold";
+    font-size: 18px;
+    color: #011f5b;
+    width: 100%;
+  }
+
+  .searchboxcontainer {
+    width: 90%;
+    height: 50px;
+  }
+  .faq-item {
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+
+  /* footstyling small screen */
+  .footersecondsection{
+    flex-direction: column;
+    padding-top: 30px !important;
+  }
+  .footerthirdsection{
+    flex-direction: column;
+    padding-top: 1em !important;
+    padding-right: 0px !important;
+  }
+  .footertittle{
+    padding-top: 10px !important;
+  }
+  .footerlistitems{
+    width: 100%;
+  }
+
+  .copyrighttext{
+    width: 90%;
+  }
+
+
+
+
+/* Min Mba Page Small Screen Styling */
+
+  .minimbastudentimage{
+  height: 890px;
+   padding-left: 50px !important;
+   padding-top: 2em !important;
+   width: 100%;
+}
+.Standoutsagetext{
+  font-size: 64px;
+  width: 300px;
+ 
+}
+
+.Standoutsagedescription{
+   font-size: 16px;
+  font-family: "GilroySemiBold";
+  font-weight: 400;
+  width: 300px;
+  color: white;
+}
+.standoutsageicon{
+  flex-direction: column;
+}
+.standoutenrollbtn{
+  width: 80%;
+}
+
+.standouttextandicon{
+  padding-left: 0px !important;
+}
+
+/* Who is section styling */
+.whoistext{
+  font-size: 40px;
+  /* width: 300px; */
+
+}
+.whoistheminimbacontentcontainer{
+  flex-direction:column ;
+}
+.whoiscontentcontainer{
+  width: 80%;
+ 
+}
+
+.whoisgeneralcontainer{
+  padding-left: 50px !important;
+  padding-top: 2em !important;
+  height: 1450px;
+}
+
+ /* Why mini Mba section styling */
+.whyminimbasectioncontainer{
+   padding-left: 0px !important;
+}
+
+/* Mini Mba Moodule Small Screen Styling */
+.minimbamodulecontentcontainer{
+  flex-direction: column;
+  align-items: center;
+}
+.minimbamodulesecondsection{
+  flex-direction: column;
+}
+.minimbamodulegeneralcontainer{
+  padding-top: 6em !important;
+  padding-left: 0px !important;
+  
+}
+.minimbamodulesecondsection{
+   align-items: center;
+    padding-top: 10px !important;
+       padding-left: 0em !important;
+
+}
+
+
+/* Operation management page ipad screen styling */
+.operationmanagementtext{
+ 
+  width: 100%;
+}
+.operationmanagmentexttittle{
+  font-size: 24px;
+}
+.operationmanagementcontainer{
+  padding-left: 30px !important;
+  
+}
+
+.aboutthiscoursedetails{
+  width: 90%;
+}
+
+.aboutthiscourseiconandtextgeneralcontainer{
+  width: 90%;
+  
+  padding-top: 4em !important;
+  padding-left: 2em !important;
+  
+  margin-top: 5em !important;
+  margin-left: 1em !important;
+}
+.aboutthiscoursefirstsection{
+padding-left: 30px !important;
+}
+
+.aboutthiscourse{
+  font-size: 28px;
+  
+}
+
+/* coursebenefit sectioon styling */
+.generalcoursebenefitcontainer{
+
+  padding-left: 30px !important;
+  
+}
+/* what you will learn section styling */
+.whatyoulearnpinkcontentcontainer{
+  width: 90%;
+  height: 640px;
+  padding-left: 3em !important;
+ 
+}
+
+.whatyoulearnpalebluecontainer{
+  width: 90%;
+  height: 640px;
+  border-radius: 20px;
+  padding-left: 3em !important;
+
+}
+
+.whatyoulearnlistitems{
+  padding-left: 0em !important;
+}
+
+
+/* Operation Management Section styling for ipad screen */
+
+.operationmanagementgeneralcontainer{
+  align-items: flex-start;
+  background-color: #011F5B;
+  width: 90%;
+  height: 560px;
+  padding-left: 3em !important;
+  padding-top: 2em !important;
+  margin-left: 20px !important;
+  margin-top: 4em !important;
+  border-radius: 24px;
+}
+
+.operationmanagementsectioncontenttext{
+  width: 80%;
+}
+
+.operationmanagemenstsecondsection{
+  padding-left: 0em !important;
+}
+.enrollbutton2{
+  width: 80%;
+}
+.operationmanagementsectiontext{
+  font-size: 28px;
+  
+}
+
+
+/* View all courses available page for ipad screen */
+.availablecoursesandsearchcontainer{
+ flex-direction: column;
+ padding-top: 20px !important;
+}
+
+.availablecoursessecondsectioncontainer{
+  display: grid;
+  grid-template-columns: repeat(1, 8fr);
+  gap: 5px;
+ 
+}
+
+/* Verify student page for ipad screen */
+.verifycertificatestext{
+  width: 300px;
+}
+
+.verifystudenttext{
+  font-size: 44px;
+  
+}
+
+/* Certificate page styling */
+
+.certificateimage{
+  width: 80%;
+}
+.certificateimagecontainer{
+  padding-left: 2em !important;
+  padding-top: 2em !important;
+}
+
+.partnerimage{
+  width: 90%;
+  padding-top: 3em !important;
+}
+
+
+.partnerscardcontainer{
+ width: 700px;
+  height: 700px;
+  padding: 24px !important;
+ 
+  margin-top: 2em !important;
+}
+.partnerscardcontainer{
+  flex-direction: column;
+}
+.pluralcodedescriptions{
+   width: 320px;
+}
+.pluralcodetextcontainer{
+  padding-top: 2em !important;
+}
+.pluralcodelogo{
+  padding-top: 2em !important;
+}
+.partnersandaccreditorstext{
+  padding-top: 1em !important;
+}
+
+
+
+
+/* About sage institue ipad page styling */
+
+.aboutsageimage{
+  width: 90%;
+ 
+}
+
+.sagelayergeneralcontainer{
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 4em !important;
+  align-items: center;
+}
+
+.sagewhoiscontentcontainer{
+  
+  width: 90%;
+  
+
+}
+
+.ourculturegeneralcontainer{
+  padding-left: 1em !important;
+
+}
+
+.aboutsageourimpactsecondsectioncontainer{
+
+  width: 90%;
+  height: 340px; 
+  position: relative;
+  left: 0px;
+  margin-top: 2em !important;
+  
+ 
+  
+  
+}
+
+.overtheyearstext{
+ 
+  width: 420px;
+ 
+}
+
+.impactimage{
+  width: 90%;
+  height: 500px;
+ 
+}
+
+.aboutsageourimpactgeneralcontainer{
+  padding-left: 3em !important;
+
+}
+
+.thesageinstituteabout{
+  font-size: 64px;
+  font-family: 'GilroyBlack';
+  color: #011F5B;
+  width: 520px;
+}
+
+
+}
+
+
+
 
 
 

@@ -31,7 +31,7 @@ const Ourtraining = () => {
                 </div>
                 <div className='rightarrowcontainer'>
                     <div></div>
-                    <i class='bx  bx-arrow-right-stroke-circle rightarrow'  ></i> 
+                 <Link to={'/viewcertificate'} className='text-decoration-none' > <i class='bx  bx-arrow-right-stroke-circle rightarrow'  ></i> </Link>
                 </div>
 
             </div>

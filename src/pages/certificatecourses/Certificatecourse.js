@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 const Certificatecourse = () => {
-  const [showAllCourses, setShowAllCourses] = useState(false);
+  // const [showAllCourses, setShowAllCourses] = useState(false);
 
   return (
     <div className='certificatecoursegeneralcontainer'>
@@ -83,9 +83,9 @@ const Certificatecourse = () => {
 
         </div>
 
-        {showAllCourses && (
+        {/* {showAllCourses && (
   <div className='certificatecoursesecondsection d-flex'>
-    {/* your 3 hidden cards go here */}
+    your 3 hidden cards go here
 
     <div className='certificatecorsescontent'>
             <img src={Businessanalysisimage}alt='Accounting&Financeimg'className='certificatecourseimage'/>
@@ -117,13 +117,11 @@ const Certificatecourse = () => {
               </div>
             </div>
   </div>
-)}
+)} */}
 
         <div className='viewallbtncontainer d-flex'>
           <div></div>
-          <button className='viewallcoursesbtn'    onClick={() => setShowAllCourses(!showAllCourses)}
->
-  {showAllCourses ? 'Hide extra courses' : 'View all courses'}</button>
+          <button className='viewallcoursesbtn'> <Link to={'/viewallcourses'} className='text-decoration-none viewallcoursesbtn' >View all courses </Link> </button>
 
         </div>
         

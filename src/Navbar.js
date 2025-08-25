@@ -74,12 +74,12 @@ const Navbar = () => {
                 
               </div>
             </div>
-            <p><a href="#" className="text-decoration-none nav-item">About Sage</a></p>
+            <p><Link to={'/aboutsage'} className="text-decoration-none nav-item">About Sage</Link></p>
             <div className="moredropdown">
                 <p><a href="#" className="text-decoration-none nav-item">More <i class='bx  bx-chevron-down '  ></i></a></p>
                 <ul className="moredropdown-menu">
-                    <li><a href="#" className="text-decoration-none nav-item">Verify Certificate</a></li>
-                    <li><a href="#" className="text-decoration-none nav-item">Our Partners</a></li>
+                    <li><Link to={'/verifystudentpage'} className="text-decoration-none nav-item">Verify Certificate</Link></li>
+                    <li><Link to={'/ourpartner'} className="text-decoration-none nav-item">Our Partners</Link></li>
                     <li><a href="#" className="text-decoration-none nav-item">Contact Us</a></li>
                 </ul>
             </div>

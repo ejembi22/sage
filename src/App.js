@@ -15,6 +15,11 @@ import Innovationanddesignthinking from './pages/certificatecourses/innovationan
 import Accountandfinance from './pages/certificatecourses/accountandfinance/Accountandfinance';
 import Teamleadership from './pages/certificatecourses/teamleadership/Teamleadership';
 import Growthhackings from './pages/certificatecourses/growthhacking/Growthhackings';
+import Viewallcourseslandingpage from './pages/certificatecourses/viewallcourses/Viewcourseslandingpage';
+import Verifyourstudentpage from './pages/verifyourstudent/Verifyourstudentpage';
+import Viewcertificatepage from './pages/viewcertificate/Viewcertificatepage';
+import Ourpartnerpage from './pages/ourpartner/Ourpartnerpage';
+import Aboutsagepage from './pages/aboutsage/Aboutsagepage';
 
 function App() {
   return (
@@ -35,6 +40,11 @@ function App() {
           <Route path='/accountandfinance'element={<Accountandfinance/>}/>
           <Route path='/teamleadership'element={<Teamleadership/>}/>
           <Route path='/growthhacking'element={<Growthhackings/>}/>
+          <Route path='/viewallcourses'element={<Viewallcourseslandingpage/>}/>
+          <Route path={'/verifystudentpage'}element={<Verifyourstudentpage/>}/>
+          <Route path={'/viewcertificate'}element={<Viewcertificatepage/>}/>
+          <Route path={'/ourpartner'}element={<Ourpartnerpage/>}/>
+          <Route path={'/aboutsage'}element={<Aboutsagepage/>}/>
           
         
           
