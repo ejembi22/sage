@@ -20,7 +20,8 @@ import Verifyourstudentpage from './pages/verifyourstudent/Verifyourstudentpage'
 import Viewcertificatepage from './pages/viewcertificate/Viewcertificatepage';
 import Ourpartnerpage from './pages/ourpartner/Ourpartnerpage';
 import Aboutsagepage from './pages/aboutsage/Aboutsagepage';
-
+import Login from './Login';
+import Signup from './Signup';
 function App() {
   return (
     <Router>
@@ -45,6 +46,8 @@ function App() {
           <Route path={'/viewcertificate'}element={<Viewcertificatepage/>}/>
           <Route path={'/ourpartner'}element={<Ourpartnerpage/>}/>
           <Route path={'/aboutsage'}element={<Aboutsagepage/>}/>
+          <Route path={'/login'}element={<Login/>}/>
+          <Route path={'/signup'}element={<Signup/>}/>
           
         
           

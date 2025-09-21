@@ -91,8 +91,8 @@ const Navbar = () => {
           <div className="d-flex nav-right">
            
             
-              <p className="loginlink"><a href="#" className="text-decoration-none text-danger " >Login</a></p>
-              <p className="signuplink"><a href="#" className="text-decoration-none text-white" >Sign Up</a></p>
+              <p className="loginlink"><Link to={'/login'} className="text-decoration-none text-danger " >Login</Link></p>
+              <p className="signuplink"><Link to={'/signup'} className="text-decoration-none text-white" >Sign Up</Link></p>
   
           </div>
           </div>

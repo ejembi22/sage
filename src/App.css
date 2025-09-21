@@ -1897,13 +1897,101 @@ align-items: center;
 padding-left: 3em !important;
 }
 
+/* LOGIN STYLING PAGE */
 
+.logintext{
+  font-size: 36px;
+  font-family: "GilroyBold";
+}
+.loginformcontainer{
+   border-radius: 22px;
+    width: 50%;
+    height: 450px !important;
+    padding-left: 2em !important;
+    padding-top: 3em !important;
+    margin-inline: auto !important;
+    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
+    background-color: transparent !important;
+    margin-top: 2em !important;
+}
+.logininputfield{
+  width: 90%;
+    height: 6vh ;
+    border-top : none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 10px !important;
+}
+.loginemail {
+   font-size: 30px;
+   font-family: "GilroyRegular";
+}
+.loginpassword{
+  font-size: 30px;
+  font-family: "GilroyRegular";
+}
+.loginbtn{
+   width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3em !important;
+    background-color: #9B0000;
+    color: #E2ECFF;
+}
+.logincontainer{
+  padding-top: 4em !important;
+  padding-bottom: 4em !important;
+}
 
+/* Create your account styling */
+.createyouraccounttext{
+  font-size: 36px;
+  font-family: "GilroyBold";
+}
+.createyouraccountcontainer{
+  border-radius: 22px;
+    width: 50%;
+    height: 600px !important;
+    padding-left: 2em !important;
+    padding-top: 3em !important;
+    margin-inline: auto !important;
+    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
+    background-color: transparent !important;
+    margin-top: 2em !important;
+}
 
+.createaccountdetailstext{
+  font-size: 30px;
+   font-family: "GilroyRegular";
+   padding-top: 10px !important;
+}
+.createinputfield{
+   width: 90%;
+    height: 6vh ;
+    border-top : none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 10px !important;
+}
+.signupbtn{
+  width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3em !important;
+    background-color: #9B0000;
+    color: #E2ECFF;
+}
 
-
-
-
+.createaccountcontainer{
+   padding-top: 4em !important;
+  padding-bottom: 4em !important;
+}
 
 
 
@@ -2570,6 +2658,29 @@ padding-left: 30px !important;
   width: 90%;
 }
 
+
+/* login small screen styling */
+.loginformcontainer{
+  width: 90%;
+  height: 450px !important;
+   
+}
+.logintext{
+  font-size: 26px;
+  
+}
+
+/* Create small screen account */
+.createyouraccountcontainer{
+  border-radius: 22px;
+    width: 90%;
+    height: 700px !important;
+    
+}
+.createyouraccounttext{
+  font-size: 26px;
+}
+
 }
 
 
@@ -3219,6 +3330,24 @@ padding-left: 30px !important;
 
 .reachouttousimage{
   padding-top: 3em !important;
+}
+
+
+
+/* login  screen ipad styling */
+.loginformcontainer{
+  height: 500px !important;
+  width: 90%;
+  
+   
+}
+
+/* create your accout ipad screen styling */
+
+.createyouraccountcontainer{
+    width: 90%;
+    height: 790px !important;
+    
 }
 
 
@@ -3876,6 +4005,27 @@ padding-left: 30px !important;
   font-family: 'GilroyBlack';
   color: #011F5B;
   width: 520px;
+}
+
+/* Create small screen account */
+.createyouraccountcontainer{
+    width: 90%;
+    height: 700px !important;
+    
+}
+.createyouraccounttext{
+  font-size: 26px;
+}
+
+/* Create small screen account */
+.createyouraccountcontainer{
+  border-radius: 22px;
+    width: 90%;
+    height: 700px !important;
+    
+}
+.createyouraccounttext{
+  font-size: 26px;
 }
 
 
