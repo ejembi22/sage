@@ -22,6 +22,7 @@ import Ourpartnerpage from './pages/ourpartner/Ourpartnerpage';
 import Aboutsagepage from './pages/aboutsage/Aboutsagepage';
 import Login from './Login';
 import Signup from './Signup';
+import CheckOutPage from './pages/checkout/CheckOutPage';
 function App() {
   return (
     <Router>
@@ -48,6 +49,7 @@ function App() {
           <Route path={'/aboutsage'}element={<Aboutsagepage/>}/>
           <Route path={'/login'}element={<Login/>}/>
           <Route path={'/signup'}element={<Signup/>}/>
+          <Route path={'/checkout'}element={<CheckOutPage/>}/>
           
         
           

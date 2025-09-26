@@ -27,14 +27,14 @@
   font-family: "GilroyRegular";
   src: url("./fonts/Gilroy-Regular.ttf") format("opentype");
 }
-@font-face{
-  font-family: "GilroySemiBoldItalic" ;
+@font-face {
+  font-family: "GilroySemiBoldItalic";
   src: url("./fonts/Gilroy-SemiBoldItalic.ttf");
 }
 
-@font-face{
-  font-family: 'GilroyLight';
-  src: url('./fonts/Gilroy-Light.ttf');
+@font-face {
+  font-family: "GilroyLight";
+  src: url("./fonts/Gilroy-Light.ttf");
 }
 .menu-item {
   position: relative;
@@ -296,7 +296,7 @@
   width: 375px;
   height: 315px;
 }
-.certificateimage{
+.certificateimage {
   width: 375px;
   height: 315px;
 }
@@ -760,17 +760,17 @@ ul.faq-list li::marker {
   padding-left: 50px !important;
   padding-top: 10px !important;
 }
-.frequentlyaskedquestiongeneralcontainer{
+.frequentlyaskedquestiongeneralcontainer {
   padding-bottom: 4em !important;
 }
 
 /* footer styling */
-.footertext{
+.footertext {
   width: 258px;
   font-size: 16px;
-  font-family: 'Inter';
+  font-family: "Inter";
 }
-.footericons{
+.footericons {
   border: 2px solid #222057;
   width: 25px;
   height: 25px;
@@ -778,105 +778,97 @@ ul.faq-list li::marker {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
- 
 }
 
-.footericoncontainer{
- gap: 10px;
- 
+.footericoncontainer {
+  gap: 10px;
 }
-.footergeneralcontainer{
+.footergeneralcontainer {
   padding-left: 50px !important;
   padding-top: 2em !important;
   /* margin-top: 4em !important; */
   background-color: aliceblue;
 }
-.footersecondsection{
+.footersecondsection {
   justify-content: space-around;
 }
-.footerlistitems{
+.footerlistitems {
   padding-top: 15px !important;
   font-size: 14px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
 }
-.footertittle{
+.footertittle {
   font-size: 16px;
-  font-family: 'GilroySemiBold';
-  color: #011F5B;
+  font-family: "GilroySemiBold";
+  color: #011f5b;
 }
-.footerthirdsection{
+.footerthirdsection {
   justify-content: space-around;
   padding-right: 15em !important;
   padding-top: 3em !important;
- 
 }
-.copyrighttext{
+.copyrighttext {
   font-size: 14px;
-  font-family: 'GilroyRegular';
-  color: #0C0C0C;
+  font-family: "GilroyRegular";
+  color: #0c0c0c;
   padding-top: 40px !important;
   padding-bottom: 20px !important;
 }
 
-
-
 /* Mini Mba Page Styling */
-.minimbastudentimage{
+.minimbastudentimage {
   background-image: url(assets/images/Studentimage2.png);
   background-repeat: no-repeat;
   background-size: cover;
-   background-position: center;
-   height: 770px;
-   padding-left: 4em !important;
-   padding-top: 12em !important;
+  background-position: center;
+  height: 770px;
+  padding-left: 4em !important;
+  padding-top: 12em !important;
 }
-.Standoutsagetext{
+.Standoutsagetext {
   font-size: 64px;
   font-family: "GilroyBold";
   font-weight: 400;
   width: 644px;
   color: white;
 }
-.Standoutsagedescription{
-   font-size: 16px;
+.Standoutsagedescription {
+  font-size: 16px;
   font-family: "GilroySemiBold";
   font-weight: 400;
   width: 350px;
   color: white;
 }
 
-.standouttextandicon{
+.standouttextandicon {
   align-items: center;
   padding-top: 20px !important;
 }
-.standoutspantext{
-  font-family: 'GilroySemiBoldItalic';
+.standoutspantext {
+  font-family: "GilroySemiBoldItalic";
   font-size: 14px;
 }
-.standoutspannumbertext{
-  font-family: 'GiloryRegularItalic'; 
+.standoutspannumbertext {
+  font-family: "GiloryRegularItalic";
 }
-.standoutenrollbtn{
+.standoutenrollbtn {
   width: 313px;
   height: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 14px;
-  color: #011F5B;
-  font-family: 'GilroySemiBold';
-
+  color: #011f5b;
+  font-family: "GilroySemiBold";
 }
 
 /* Who is section styling */
-.whoistext{
+.whoistext {
   font-size: 40px;
-  font-family: 'GilroySemiBold';
-
+  font-family: "GilroySemiBold";
 }
 .layered-box {
   position: relative;
   width: 17px;
   height: 19px;
- 
 }
 
 .layer {
@@ -887,101 +879,95 @@ ul.faq-list li::marker {
 }
 
 .layer1 {
-  background-color: #9B0000; 
+  background-color: #9b0000;
   top: 12px;
   left: 12px;
   z-index: 1;
 }
 
 .layer2 {
-  background-color: #011F5B; 
+  background-color: #011f5b;
   top: 6px;
   left: 6px;
   z-index: 2;
 }
 
 .layer3 {
-  background-color: #F9D0D0; 
+  background-color: #f9d0d0;
   top: 0;
   left: 0;
   z-index: 3;
 }
 
-.whoistitle{
+.whoistitle {
   font-size: 16px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   font-weight: 700;
 }
-.whoiscontent{
+.whoiscontent {
   font-size: 16px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   width: 225px;
 }
-.whoiscontentcontainer{
-  border: 2px solid #FFFFFF;
+.whoiscontentcontainer {
+  border: 2px solid #ffffff;
   width: 257px;
   height: 241px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background-color: #FFFFFF;
-
+  background-color: #ffffff;
 }
-.whoisgeneralcontainer{
+.whoisgeneralcontainer {
   padding-left: 4em !important;
   padding-top: 4em !important;
   background-color: aliceblue;
   height: 550px;
 }
-.whoistheminimbacontentcontainer{
+.whoistheminimbacontentcontainer {
   padding-top: 4em !important;
   gap: 40px;
 }
 
 /* why mini mba section */
-.whyminimbatext{
+.whyminimbatext {
   font-size: 40px;
   font-family: "GilorySemiBold";
   font-weight: 400;
 }
-.whyminimbasectioncontainer{
-   padding-left: 50px !important;
+.whyminimbasectioncontainer {
+  padding-left: 50px !important;
   padding-top: 6em !important;
   background-color: aliceblue;
   margin-top: 0em !important;
   padding-bottom: 2em !important;
 }
-.whyminimbafirstsection{
-    padding-top: 3em !important;
-
+.whyminimbafirstsection {
+  padding-top: 3em !important;
 }
-.whyminimbasecondcontainer{
+.whyminimbasecondcontainer {
   padding-left: 30px !important;
   padding-top: 3em !important;
 }
 
-
-
-
 /* Mini mba module section styling */
 
-.minimbamodulestext{
+.minimbamodulestext {
   font-size: 40px;
-  font-family: 'GilroySemiBold';
-
+  font-family: "GilroySemiBold";
 }
-.minimbamoduleimage{
-   width: 270px;
+.minimbamoduleimage {
+  width: 270px;
   height: 276px;
   padding-top: 20px !important;
   padding-left: 20px !important;
   border-radius: 27px 5px 17px 5px;
 }
 
-.minimbamodulecontentname{
-  font-family: 'GilroySemiBold';
-  font-size:20.08px;
+.minimbamodulecontentname {
+  font-family: "GilroySemiBold";
+  font-size: 20.08px;
   width: 273px;
 }
 
@@ -993,20 +979,17 @@ ul.faq-list li::marker {
   padding: 8px 20px;
   text-align: center;
   width: 90px;
-  clip-path: polygon(
-    0 0, 0% 50%, 0 100%, 
-    100% 100%, 90% 50%, 100% 0
-  );
+  clip-path: polygon(0 0, 0% 50%, 0 100%, 100% 100%, 90% 50%, 100% 0);
 }
 
-.minimbamoduleicon{
+.minimbamoduleicon {
   align-items: center;
-  font-size:13.39px;
-  font-family: 'GilroyLight';
+  font-size: 13.39px;
+  font-family: "GilroyLight";
 }
 
-.minimbamodulecontent{
-   border: 2px solid #ffffff;
+.minimbamodulecontent {
+  border: 2px solid #ffffff;
   width: 290px;
   height: 450px;
   border-radius: 17px 3px 17px 5px;
@@ -1014,185 +997,179 @@ ul.faq-list li::marker {
   background-color: #ffffff;
 }
 
-.minimbamodulecontentcontainer{
+.minimbamodulecontentcontainer {
   gap: 10px;
   padding-top: 4em !important;
 }
 
-.minimbamodulesecondsection{
-   padding-left: 10em !important;
-   gap: 10px;
+.minimbamodulesecondsection {
+  padding-left: 10em !important;
+  gap: 10px;
   padding-top: 2em !important;
 }
-.minimbamodulegeneralcontainer{
-   padding-top: 6em !important;
+.minimbamodulegeneralcontainer {
+  padding-top: 6em !important;
   padding-left: 40px !important;
   background-color: white;
 }
 
 /* Operation Management Page Styling */
-.operationmanagmentexttittle{
+.operationmanagmentexttittle {
   font-size: 64px;
-  font-family: 'GilroyBold';
-  color: #9B0000;
+  font-family: "GilroyBold";
+  color: #9b0000;
 }
-.opertionmanagementtime{
+.opertionmanagementtime {
   font-size: 24px;
-  font-family: 'GilroyBold';
-  color: #9B0000;
+  font-family: "GilroyBold";
+  color: #9b0000;
 }
-.operationmanagementtext{
+.operationmanagementtext {
   font-size: 16px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   color: #232323;
   width: 644px;
 }
-.operationmanagementspantext{
-  font-family: 'GilroyMedium';
+.operationmanagementspantext {
+  font-family: "GilroyMedium";
 }
-.likeicon{
-  color: #FFB900;
-  
+.likeicon {
+  color: #ffb900;
 }
-.managemoperationentratings{
-  font-family: 'GilroyRegularItalic';
+.managemoperationentratings {
+  font-family: "GilroyRegularItalic";
   font-size: 14px;
-  color: #9B0000;
+  color: #9b0000;
 }
-.opmspanratingstext{
+.opmspanratingstext {
   font-size: 16px;
-  font-family: 'GilroyMedium';
+  font-family: "GilroyMedium";
 }
-.opmpercentagerating{
+.opmpercentagerating {
   font-size: 14px;
-  font-family: 'GilroyRegularItalic';
-  color: #9B0000;
+  font-family: "GilroyRegularItalic";
+  color: #9b0000;
 }
-.enrollbutton{
+.enrollbutton {
   width: 313px;
   height: 40px;
-  background-color:#990000 ;
-  color: #FFFFFF;
+  background-color: #990000;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
 }
-.operationmanagementcontentcontainer{
+.operationmanagementcontentcontainer {
   display: flex;
   flex-direction: column;
-   align-items: center;
+  align-items: center;
 }
-.operationmanagementcontainer{
+.operationmanagementcontainer {
   background-color: aliceblue;
   height: 480px;
   justify-content: center;
   display: flex;
   align-items: center;
-    
- 
-
 }
 
 /* about this course section styling */
-.aboutthiscourse{
+.aboutthiscourse {
   font-size: 48px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: Bold;
-  color: #011F5B;
+  color: #011f5b;
 }
-.aboutnumberofstudent{
-  font-family: 'GilroySemiBold';
+.aboutnumberofstudent {
+  font-family: "GilroySemiBold";
   font-size: 18px;
 }
-.aboutthiscoursedetails{
+.aboutthiscoursedetails {
   width: 640px;
   font-size: 18px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
 }
-.aboutthiscoursesecondsection{
-  background-image: url('assets/images/groupbackgroundimage1.png');
- background-position: center;
+.aboutthiscoursesecondsection {
+  background-image: url("assets/images/groupbackgroundimage1.png");
+  background-position: center;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 590px;
   margin-top: 5em !important;
 }
-.aboutcourses{
+.aboutcourses {
   font-size: 40px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
 }
-.abouticontittle{
+.abouticontittle {
   font-size: 24px;
-  font-family: 'GilroyBold';
+  font-family: "GilroyBold";
   color: #000000;
 }
-.abouticon{
+.abouticon {
   font-size: 34px;
-  border: 2px solid #011F5B;
+  border: 2px solid #011f5b;
   border-radius: 20px;
   padding: 5px !important;
   color: white;
-  background-color: #011F5B;
- 
+  background-color: #011f5b;
 }
-.abouticons{
+.abouticons {
   font-size: 45px;
-  color:  #9B0000;
+  color: #9b0000;
 }
-.abouticonandtextcontainer{
+.abouticonandtextcontainer {
   align-items: center;
 }
-.abouticontittles{
+.abouticontittles {
   font-size: 40px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   color: #000000;
   font-weight: 400;
 }
-.aboutthiscoursespantext{
+.aboutthiscoursespantext {
   font-size: 16px;
-  font-family: 'GiloryRegularItalic';
+  font-family: "GiloryRegularItalic";
   width: 210px;
   padding-left: 10px !important;
 }
 
-.aboutthiscourseiconandtextgeneralcontainer{
-  border: 2px solid #F9D0D0;
+.aboutthiscourseiconandtextgeneralcontainer {
+  border: 2px solid #f9d0d0;
   width: 423px;
   height: 349px;
-  background-color: #F9D0D0;
+  background-color: #f9d0d0;
   padding-top: 4em !important;
   padding-left: 2em !important;
   border-radius: 2px 40px 2px 40px;
   margin-top: 5em !important;
   margin-left: 5em !important;
 }
-.aboutthiscoursegeneralcontainer{
+.aboutthiscoursegeneralcontainer {
   justify-content: center;
   align-items: center;
   padding-top: 3em !important;
 }
 
 /* course Benefit section styling  */
-.coursebenefittext{
+.coursebenefittext {
   font-size: 40px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   color: #000000;
- 
 }
-.coursebenefitsecondsectiontext{
+.coursebenefitsecondsectiontext {
   font-size: 48px;
-  font-family: 'Lato';
-  color: #011F5B;
+  font-family: "Lato";
+  color: #011f5b;
 }
-.coursebenefitlistitems{
+.coursebenefitlistitems {
   font-size: 18px;
-  font-family: 'Lato';
+  font-family: "Lato";
   color: #232323;
   padding-top: 10px !important;
   padding-left: 30px !important;
 }
-.generalcoursebenefitcontainer{
+.generalcoursebenefitcontainer {
   padding-bottom: 3em !important;
   align-items: center;
   padding-left: 50px !important;
@@ -1200,24 +1177,24 @@ ul.faq-list li::marker {
   margin-top: 3em !important;
   padding-top: 3em !important;
 }
-.coursebenefitfirstsection{
-  background-image: url('assets/images/coursebenefitimage.png');
+.coursebenefitfirstsection {
+  background-image: url("assets/images/coursebenefitimage.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 641px;
 }
 /* what you will learn section styling */
-.whatyoulearntext{
+.whatyoulearntext {
   font-size: 48px;
   color: #000000;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
 }
-.weektext{
+.weektext {
   font-size: 32px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   color: #232323;
 }
-.layereds-box{
+.layereds-box {
   position: relative;
   width: 17px;
   height: 19px;
@@ -1229,106 +1206,104 @@ ul.faq-list li::marker {
   border-radius: 4px;
 }
 .layers1 {
-  background-color: #9B0000; 
+  background-color: #9b0000;
   top: 12px;
   left: 12px;
   z-index: 1;
 }
 
 .layers2 {
-  background-color: #011F5B; 
+  background-color: #011f5b;
   top: 6px;
   left: 6px;
   z-index: 2;
 }
-.whatyoulearnlistitems{
+.whatyoulearnlistitems {
   padding-top: 2em !important;
   padding-left: 6em !important;
 }
-.whatyoulearnlists{
+.whatyoulearnlists {
   font-size: 16px;
-  font-family: 'GilroyMedium';
+  font-family: "GilroyMedium";
   color: #232323;
   padding-top: 20px !important;
 }
-.whatyoulearnpinkcontentcontainer{
-  border: 2px solid #FFE9E9;
+.whatyoulearnpinkcontentcontainer {
+  border: 2px solid #ffe9e9;
   width: 580px;
   height: 480px;
-  background-color: #FFE9E9;
+  background-color: #ffe9e9;
   border-radius: 20px;
   padding-left: 3em !important;
   padding-top: 2em !important;
-   margin-top: 3em !important;
+  margin-top: 3em !important;
 }
 
 .layers-1 {
-  background-color: #011F5B; 
+  background-color: #011f5b;
   top: 12px;
   left: 12px;
   z-index: 1;
 }
 
 .layers-2 {
-  background-color: #9B0000; 
+  background-color: #9b0000;
   top: 6px;
   left: 6px;
   z-index: 2;
 }
-.whatyoulearnpalebluecontainer{
-   border: 2px solid #E2ECFF;
+.whatyoulearnpalebluecontainer {
+  border: 2px solid #e2ecff;
   width: 580px;
   height: 480px;
-  background-color: #E2ECFF;
+  background-color: #e2ecff;
   border-radius: 20px;
   padding-left: 3em !important;
   padding-top: 2em !important;
   margin-top: 3em !important;
 }
-.Whatyoulearngeneralcontainer{
+.Whatyoulearngeneralcontainer {
   padding-left: 30px !important;
   padding-top: 4em !important;
- 
 }
-
 
 /* Operation management section styling */
 
-.operationmanagementsectiontext{
+.operationmanagementsectiontext {
   font-size: 48px;
-  font-family: 'GilroySemiBold';
-  color: #FFFFFF;
+  font-family: "GilroySemiBold";
+  color: #ffffff;
 }
-.operationmanagementsectioncontenttext{
+.operationmanagementsectioncontenttext {
   font-size: 16px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   width: 644px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.opertionmanagementtimes{
+.opertionmanagementtimes {
   font-size: 24px;
-  font-family: 'GilroyBold';
-  color: #FFFFFF;
+  font-family: "GilroyBold";
+  color: #ffffff;
 }
-.operationmanagementspantexts{
+.operationmanagementspantexts {
   font-size: 16px;
-  font-family: 'GilroyRegular';
-  color: #FFFFFF;
+  font-family: "GilroyRegular";
+  color: #ffffff;
   width: 644px;
 }
-.managemoperationenstratings{
-   font-family: 'GilroyRegularItalic';
+.managemoperationenstratings {
+  font-family: "GilroyRegularItalic";
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.opmpercentageratings{
-   font-size: 14px;
-  font-family: 'GilroyRegularItalic';
-  color: #FFFFFF;
+.opmpercentageratings {
+  font-size: 14px;
+  font-family: "GilroyRegularItalic";
+  color: #ffffff;
 }
-.operationmanagementgeneralcontainer{
+.operationmanagementgeneralcontainer {
   align-items: center;
-  background-color: #011F5B;
+  background-color: #011f5b;
   width: 1200px;
   height: 260px;
   padding-left: 3em !important;
@@ -1336,142 +1311,136 @@ ul.faq-list li::marker {
   margin-top: 4em !important;
   border-radius: 24px;
 }
-.operationmanagemenstsecondsection{
+.operationmanagemenstsecondsection {
   padding-left: 10em !important;
 }
-.enrollbutton2{
+.enrollbutton2 {
   width: 313px;
   height: 40px;
-  background-color:#990000 ;
-  color: #FFFFFF;
+  background-color: #990000;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
 }
 
-
 /* View all courses page styling  */
-.filtertext{
+.filtertext {
   font-size: 24px;
-  font-family: 'GilorySemiBold';
+  font-family: "GilorySemiBold";
   font-weight: 400;
   color: #000000;
   padding-left: 6em !important;
   padding-top: 1em !important;
 }
-.availablecoursestext{
+.availablecoursestext {
   font-size: 24px;
-  font-family: 'GilorySemiBold';
+  font-family: "GilorySemiBold";
   font-weight: 400;
   color: #000000;
 }
-.availablecoursesandsearchcontainer{
+.availablecoursesandsearchcontainer {
   align-items: center;
   justify-content: space-between;
   padding-right: 2em !important;
-  
 }
-.searchandbuttoncontainer{
+.searchandbuttoncontainer {
   border: 1px solid #000000;
   width: 270px;
 }
-.viewallcoursessearchinput{
+.viewallcoursessearchinput {
   border: none;
   outline: none;
   padding: 2px !important;
 }
-.viewallcoursessearchinput::placeholder{
-font-size: 12px;
-font-family: 'GilroyLight';
-padding: 1em !important;
+.viewallcoursessearchinput::placeholder {
+  font-size: 12px;
+  font-family: "GilroyLight";
+  padding: 1em !important;
 }
-.availablecoursesearchbutton{
-  background-color: #9B0000;
-  color: #FFFFFF;
+.availablecoursesearchbutton {
+  background-color: #9b0000;
+  color: #ffffff;
   width: 90px;
   height: 37px;
   align-items: center;
   justify-content: center;
   border: none;
-  
-  
-  
 }
-.viewallcoursessearchbutton{
+.viewallcoursessearchbutton {
   border: none;
   outline: none;
- background-color: #9B0000;
- color:#FFFFFF ;
-
+  background-color: #9b0000;
+  color: #ffffff;
 }
-.availablecoursescheckbox{
+.availablecoursescheckbox {
   width: 18px;
   height: 18px;
-  border: 2px solid #9B0000;
-  appearance: none;   /* remove default checkbox style */
+  border: 2px solid #9b0000;
+  appearance: none; /* remove default checkbox style */
   cursor: pointer;
   position: relative;
 }
-.availablecoursescheckbox:checked{
-background-color: #9B0000;
+.availablecoursescheckbox:checked {
+  background-color: #9b0000;
 }
-.availablecoursesfiltertittle{
+.availablecoursesfiltertittle {
   font-size: 16px;
-  font-family: 'GilorySemiBold';
+  font-family: "GilorySemiBold";
   font-weight: 400;
   color: #000000;
 }
-.availablecoursesfiltertext{
+.availablecoursesfiltertext {
   font-size: 16px;
-  font-family:'GilroyRegular' ;
+  font-family: "GilroyRegular";
 }
-.seemoretext{
+.seemoretext {
   font-size: 16px;
-  color: #9B0000;
-  font-family: 'GilorySemiBold';
+  color: #9b0000;
+  font-family: "GilorySemiBold";
   padding-left: 5em !important;
 }
-.viewallavailablecoursesgeneralcontainer{
+.viewallavailablecoursesgeneralcontainer {
   padding-left: 3em !important;
   padding-top: 4em !important;
 }
 
-.viewallcoursesavailableimage{
+.viewallcoursesavailableimage {
   width: 270px;
   height: 276px;
   padding-top: 20px !important;
   padding-left: 20px !important;
   border-radius: 27px 5px 17px 5px;
 }
-.availablecoursescontenttext{
+.availablecoursescontenttext {
   font-size: 20.08px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   font-weight: 400;
   color: #232323;
 }
-.coursescertificatecontainer{
+.coursescertificatecontainer {
   align-items: center;
   font-size: 13.39px;
-  font-family:'GilroyLight';
+  font-family: "GilroyLight";
 }
-.courseprice{
+.courseprice {
   font-size: 10px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   text-decoration: line-through;
   padding-left: 4em !important;
 }
-.Freetext{
+.Freetext {
   font-size: 13.39px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   color: #232323;
   padding-left: 6.5em !important;
 }
-.viewcoursetext{
-  color: #9B0000;
-  font-family: 'GilroyBold';
+.viewcoursetext {
+  color: #9b0000;
+  font-family: "GilroyBold";
   font-size: 13.39px;
 }
-.availablecoursescontentcontainer{
- border: 2px solid #ffffff;
+.availablecoursescontentcontainer {
+  border: 2px solid #ffffff;
   width: 290px;
   height: 450px;
   border-radius: 17px 3px 17px 5px;
@@ -1479,24 +1448,23 @@ background-color: #9B0000;
   background-color: #ffffff;
   margin-top: 15px !important;
 }
-.coursesavailablecontentsdetials{
+.coursesavailablecontentsdetials {
   padding-left: 20px !important;
 }
-.availablecoursessecondsectioncontainer{
+.availablecoursessecondsectioncontainer {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   gap: 5px;
- 
 }
-.viewallcoursescarouselsbutton{
+.viewallcoursescarouselsbutton {
   align-items: center;
   font-size: 12px;
-  font-family: 'GilroySemiBold';
-  color: #4E4E4E;
+  font-family: "GilroySemiBold";
+  color: #4e4e4e;
 }
-.viewallcoursescarousels{
-  border: 1px solid #FFFFFF;
-  background-color: #FFFFFF;
+.viewallcoursescarousels {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
   width: 33px;
   height: 31px;
   display: flex;
@@ -1504,108 +1472,103 @@ background-color: #9B0000;
   justify-content: center;
   margin-left: 5px !important;
 }
-.avaialblecoursescarouselgeneralcontainer{
+.avaialblecoursescarouselgeneralcontainer {
   display: flex;
   justify-content: space-between;
   padding-top: 3em !important;
   padding-right: 1em !important;
 }
-.rightchevron{
-  border: 1px solid #9B0000;
+.rightchevron {
+  border: 1px solid #9b0000;
   width: 33px;
   height: 31px;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #9B0000;
-  color: #FFFFFF;
-   margin-left: 5px !important;
-
+  background-color: #9b0000;
+  color: #ffffff;
+  margin-left: 5px !important;
 }
-.leftchevron{
-  border: 1px solid #9B0000;
+.leftchevron {
+  border: 1px solid #9b0000;
   width: 33px;
   height: 31px;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #9B0000;
-  color: #FFFFFF;
-   margin-left: 5px !important;
-   opacity: 40%;
+  background-color: #9b0000;
+  color: #ffffff;
+  margin-left: 5px !important;
+  opacity: 40%;
 }
 
 /* Verify Out student Page styling */
-.verifystudenttext{
+.verifystudenttext {
   font-size: 64px;
-  font-family: 'GilroyBlack';
-  color: #011F5B;
+  font-family: "GilroyBlack";
+  color: #011f5b;
 }
-.verifystudentspantext{
-  color: #9B0000;
+.verifystudentspantext {
+  color: #9b0000;
 }
-.verifycertificatestext{
+.verifycertificatestext {
   font-size: 16px;
-  font-family: 'GilroySemiBold';
-  color: #4E4E4E;
+  font-family: "GilroySemiBold";
+  color: #4e4e4e;
   width: 380px;
 }
-.verifystudentinputandsearchcontainer{
-border: 1px solid #F0F0F0;
+.verifystudentinputandsearchcontainer {
+  border: 1px solid #f0f0f0;
   width: 297px;
   margin-top: 2em !important;
 }
-.verifystudentinput{
+.verifystudentinput {
   border: none;
   outline: none;
   padding: 2px !important;
-  background-color: #F0F0F0;
- 
+  background-color: #f0f0f0;
 }
-.verifystudentsearchbutton{
-  background-color: #9B0000;
-  color: #FFFFFF;
+.verifystudentsearchbutton {
+  background-color: #9b0000;
+  color: #ffffff;
   width: 110px;
   height: 37px;
   align-items: center;
   justify-content: center;
   border: none;
 }
-.verifystudentinput::placeholder{
-font-size: 12px;
-font-family: 'GilroyLight';
-padding: 1em !important;
-background-color: #F0F0F0;
+.verifystudentinput::placeholder {
+  font-size: 12px;
+  font-family: "GilroyLight";
+  padding: 1em !important;
+  background-color: #f0f0f0;
 }
-.verifystudentimage{
+.verifystudentimage {
   width: 80%;
 }
-.verifystudentpagegeneralcontainer{
+.verifystudentpagegeneralcontainer {
   align-items: center;
   padding-left: 3em !important;
   padding-top: 1em !important;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 /* certicate page styling */
-.checkcircle{
+.checkcircle {
   font-size: 68px;
-  color: #06C270;
-  
+  color: #06c270;
 }
 
-.studentverificationtext{
-font-size: 32px;
-font-family: 'GilroyMedium';
-width: 365px;
-text-align: center;
-
+.studentverificationtext {
+  font-size: 32px;
+  font-family: "GilroyMedium";
+  width: 365px;
+  text-align: center;
 }
-.studentverificationcontainer{
+.studentverificationcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .check-wrapper {
   position: relative;
@@ -1613,12 +1576,12 @@ text-align: center;
 }
 
 .checkcircle {
-  font-size: 50px;     /* size of icon */
-  color: #06C270;        /* icon color */
-  background: white;   /* clean background inside */
-  border-radius: 50%;  
+  font-size: 50px; /* size of icon */
+  color: #06c270; /* icon color */
+  background: white; /* clean background inside */
+  border-radius: 50%;
   position: relative;
-  z-index: 2;          /* icon stays on top */
+  z-index: 2; /* icon stays on top */
 }
 
 /* animated border behind the check */
@@ -1626,10 +1589,10 @@ text-align: center;
   position: absolute;
   top: 0;
   left: 0;
-  width: 50px;          /* match icon size */
+  width: 50px; /* match icon size */
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #06C270;
+  border: 2px solid #06c270;
   z-index: 1;
   animation: zoomBorder 1.5s infinite;
 }
@@ -1642,73 +1605,73 @@ text-align: center;
   }
   100% {
     transform: scale(2.5); /* border zooms out */
-    opacity: 0;            /* fades out */
+    opacity: 0; /* fades out */
   }
 }
-.viewcertificategeneralcontainer{
+.viewcertificategeneralcontainer {
   align-items: center;
   padding-top: 4em !important;
 }
-.viewcertificatetext{
+.viewcertificatetext {
   font-size: 32px;
-  font-family: 'GilroyBold';
-  color: #011F5B;
+  font-family: "GilroyBold";
+  color: #011f5b;
 }
-.certificateimagecontainer{
+.certificateimagecontainer {
   padding-top: 8em !important;
 }
-.certificateimagetwo{
+.certificateimagetwo {
   width: 749.05px;
   height: 1060px;
 }
 
 /* Meet Our Partner Page */
 
-.meetpartnerstext{
+.meetpartnerstext {
   font-size: 64px;
-  font-family: 'GilroyBlack';
-  color: #011F5B;
+  font-family: "GilroyBlack";
+  color: #011f5b;
 }
-.meetpartnerspantext{
-  color: #9B0000;
+.meetpartnerspantext {
+  color: #9b0000;
 }
-.distinguishedpartnerstext{
+.distinguishedpartnerstext {
   font-size: 16px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   width: 380px;
 }
-.meetpartnersgeneralcontainer{
+.meetpartnersgeneralcontainer {
   align-items: center;
-  padding-left:3em !important ;
+  padding-left: 3em !important ;
   padding-top: 2em !important;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-.partnersandaccreditorstext{
+.partnersandaccreditorstext {
   font-size: 40px;
-  font-family: 'GilroySemiBold';
+  font-family: "GilroySemiBold";
   color: #000000;
 }
-.pluralcodetittle{
+.pluralcodetittle {
   font-size: 38.1px;
-  font-family: 'GilroySemiBold';
-  color: #9B0000;
+  font-family: "GilroySemiBold";
+  color: #9b0000;
 }
-.pluralcodedescriptions{
+.pluralcodedescriptions {
   font-size: 16.93px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   width: 720px;
 }
-.partnerscardcontainer{
+.partnerscardcontainer {
   align-items: center;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-radius: 25.4px;
   width: 1085px;
   padding: 24px !important;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.05);
   margin-top: 2em !important;
 }
-.ourpartnerscontentcontainer{
+.ourpartnerscontentcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1716,41 +1679,39 @@ text-align: center;
 }
 
 /* About sage institue page styling */
-.thesageinstituteabout{
+.thesageinstituteabout {
   font-size: 64px;
-  font-family: 'GilroyBlack';
-  color: #011F5B;
+  font-family: "GilroyBlack";
+  color: #011f5b;
   width: 640px;
 }
 
-.thesageinstituteaboutspantext{
-  color: #9B0000;
+.thesageinstituteaboutspantext {
+  color: #9b0000;
 }
-.thissageinsitituteaboutdescription{
+.thissageinsitituteaboutdescription {
   font-size: 16px;
-  font-family: 'GilorySemiBold';
+  font-family: "GilorySemiBold";
   width: 427px;
-  color: #4E4E4E;
-
+  color: #4e4e4e;
 }
 
-.aboutsageimage{
+.aboutsageimage {
   width: 544px;
- 
 }
-.theaboutsagegeneralcontainer{
+.theaboutsagegeneralcontainer {
   align-items: center;
   padding-left: 3em !important;
-  background-color: #FFFDFA;
+  background-color: #fffdfa;
 }
-.theaboutsagesecondcontainer{
+.theaboutsagesecondcontainer {
   padding-left: 2em !important;
   padding-top: 3em !important;
 }
 
-.ourculturetext{
+.ourculturetext {
   font-size: 40px;
-  font-family: 'GilorySemiBold';
+  font-family: "GilorySemiBold";
   color: #000000;
 }
 
@@ -1758,7 +1719,6 @@ text-align: center;
   position: relative;
   width: 47px;
   height: 49px;
- 
 }
 
 .sagelayer {
@@ -1769,94 +1729,90 @@ text-align: center;
 }
 
 .sagelayer1 {
-  background-color: #011F5B; 
+  background-color: #011f5b;
   top: 12px;
   left: 2px;
   z-index: 1;
 }
 
 .sagelayer2 {
-  background-color: #9B0000; 
+  background-color: #9b0000;
   top: 19px;
   left: 6px;
   z-index: 2;
 }
 
-.sagewhoiscontentcontainer{
-  border: 2px solid #FFFFFF;
+.sagewhoiscontentcontainer {
+  border: 2px solid #ffffff;
   width: 257px;
   height: 241px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-
 }
-.aboutussagetitletext{
+.aboutussagetitletext {
   font-size: 32px;
-  font-family: 'GilroyMedium';
+  font-family: "GilroyMedium";
   color: #232323;
 }
 
 .sagelayer3 {
-  background-color:#9B0000 ; 
+  background-color: #9b0000;
   top: 12px;
   left: 2px;
   z-index: 1;
 }
 
 .sagelayer4 {
-  background-color: #011F5B; 
+  background-color: #011f5b;
   top: 19px;
   left: 6px;
   z-index: 2;
 }
-.sagelayergeneralcontainer{
+.sagelayergeneralcontainer {
   display: flex;
   gap: 30px;
   margin-top: 4em !important;
 }
-.ourculturegeneralcontainer{
+.ourculturegeneralcontainer {
   padding-left: 4em !important;
   padding-top: 4em !important;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-bottom: 7em !important;
 }
-.impactimage{
+.impactimage {
   width: 530px;
   height: 500px;
- 
-
 }
-.ourimpactext{
+.ourimpactext {
   font-size: 36px;
-  font-family: 'GilorySemiBold';
-  color: #011F5B;
-
+  font-family: "GilorySemiBold";
+  color: #011f5b;
 }
 
-.overtheyearstext{
+.overtheyearstext {
   font-size: 16px;
-  font-family: 'GilroyRegular';
+  font-family: "GilroyRegular";
   width: 640px;
-  color: #4E4E4E;
+  color: #4e4e4e;
 }
-.ourimpactpartnersbutton{
+.ourimpactpartnersbutton {
   width: 134px;
   height: 35px;
   outline: none;
   border-radius: 4px;
-  background-color: #9B0000;
+  background-color: #9b0000;
   border: none;
-  color:#FFFFFF ;
+  color: #ffffff;
 }
 
-.aboutsageourimpactsecondsectioncontainer{
-  border: 2px solid #FFFFFF;
+.aboutsageourimpactsecondsectioncontainer {
+  border: 2px solid #ffffff;
   border-radius: 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 742px;
   height: 271px;
   padding-left: 40px !important;
@@ -1864,143 +1820,132 @@ text-align: center;
   position: absolute;
   left: 495px;
   box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.1);
-  
-  
 }
-.aboutsageourimpactgeneralcontainer{
+.aboutsageourimpactgeneralcontainer {
   align-items: center;
   padding-left: 3em !important;
-  background-color: #FFFDFA;
+  background-color: #fffdfa;
   padding-top: 5em !important;
   padding-bottom: 5em !important;
 }
 
-.aboutreachouttext{
+.aboutreachouttext {
   font-size: 48px;
-  font-family: 'GilorySemiBold';
-  color: #011F5B;
+  font-family: "GilorySemiBold";
+  color: #011f5b;
 }
-.reachoutcontactinformation{
+.reachoutcontactinformation {
   font-size: 16px;
-  font-family: 'GilroyMedium';
-  color: #4E4E4E;
+  font-family: "GilroyMedium";
+  color: #4e4e4e;
   padding-left: 10px !important;
 }
-.contactinfoandiconcontainer{
+.contactinfoandiconcontainer {
   align-items: center;
   padding-top: 15px !important;
 }
-.reachouttousgeneralcontainer{
-background-color: #FFFFFF;
-height: 840px;
-align-items: center;
-padding-left: 3em !important;
+.reachouttousgeneralcontainer {
+  background-color: #ffffff;
+  height: 840px;
+  align-items: center;
+  padding-left: 3em !important;
 }
 
 /* LOGIN STYLING PAGE */
 
-.logintext{
+.logintext {
   font-size: 36px;
   font-family: "GilroyBold";
 }
-.loginformcontainer{
-   border-radius: 22px;
-    width: 50%;
-    height: 450px !important;
-    padding-left: 2em !important;
-    padding-top: 3em !important;
-    margin-inline: auto !important;
-    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
-    background-color: transparent !important;
-    margin-top: 2em !important;
+.loginformcontainer {
+  border-radius: 22px;
+  width: 50%;
+  height: 450px !important;
+  padding-left: 2em !important;
+  padding-top: 3em !important;
+  margin-inline: auto !important;
+  box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
+  background-color: transparent !important;
+  margin-top: 2em !important;
 }
-.logininputfield{
+.logininputfield {
   width: 90%;
-    height: 6vh ;
-    border-top : none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    padding: 10px !important;
+  height: 6vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 10px !important;
 }
 .loginemail {
-   font-size: 30px;
-   font-family: "GilroyRegular";
-}
-.loginpassword{
   font-size: 30px;
   font-family: "GilroyRegular";
 }
-.loginbtn{
-   width: 90%;
-    height: 40px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    margin-top: 3em !important;
-    background-color: #9B0000;
-    color: #E2ECFF;
+.loginpassword {
+  font-size: 30px;
+  font-family: "GilroyRegular";
 }
-.logincontainer{
+.loginbtn {
+  width: 90%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-top: 3em !important;
+  background-color: #9b0000;
+  color: #e2ecff;
+}
+.logincontainer {
   padding-top: 4em !important;
   padding-bottom: 4em !important;
 }
 
 /* Create your account styling */
-.createyouraccounttext{
+.createyouraccounttext {
   font-size: 36px;
   font-family: "GilroyBold";
 }
-.createyouraccountcontainer{
+.createyouraccountcontainer {
   border-radius: 22px;
-    width: 50%;
-    height: 600px !important;
-    padding-left: 2em !important;
-    padding-top: 3em !important;
-    margin-inline: auto !important;
-    box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
-    background-color: transparent !important;
-    margin-top: 2em !important;
+  width: 50%;
+  height: 600px !important;
+  padding-left: 2em !important;
+  padding-top: 3em !important;
+  margin-inline: auto !important;
+  box-shadow: 0 4px 10px rgba(34, 34, 34, 0.3);
+  background-color: transparent !important;
+  margin-top: 2em !important;
 }
 
-.createaccountdetailstext{
+.createaccountdetailstext {
   font-size: 30px;
-   font-family: "GilroyRegular";
-   padding-top: 10px !important;
+  font-family: "GilroyRegular";
+  padding-top: 10px !important;
 }
-.createinputfield{
-   width: 90%;
-    height: 6vh ;
-    border-top : none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    padding: 10px !important;
-}
-.signupbtn{
+.createinputfield {
   width: 90%;
-    height: 40px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    margin-top: 3em !important;
-    background-color: #9B0000;
-    color: #E2ECFF;
+  height: 6vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 10px !important;
+}
+.signupbtn {
+  width: 90%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-top: 3em !important;
+  background-color: #9b0000;
+  color: #e2ecff;
 }
 
-.createaccountcontainer{
-   padding-top: 4em !important;
+.createaccountcontainer {
+  padding-top: 4em !important;
   padding-bottom: 4em !important;
 }
-
-
-
-
-
-
-
-
-
 
 /* ✅ Mobile version */
 @media (max-width: 600px) {
@@ -2319,376 +2264,336 @@ padding-left: 3em !important;
   }
 
   /* footstyling small screen */
-  .footersecondsection{
+  .footersecondsection {
     flex-direction: column;
     padding-top: 30px !important;
   }
-  .footerthirdsection{
+  .footerthirdsection {
     flex-direction: column;
     padding-top: 1em !important;
     padding-right: 0px !important;
   }
-  .footertittle{
+  .footertittle {
     padding-top: 10px !important;
   }
-  .footerlistitems{
+  .footerlistitems {
     width: 100%;
   }
 
-  .copyrighttext{
+  .copyrighttext {
     width: 90%;
   }
 
+  /* Min Mba Page Small Screen Styling */
 
+  .minimbastudentimage {
+    height: 890px;
+    padding-left: 50px !important;
+    padding-top: 2em !important;
+    width: 100%;
+  }
+  .Standoutsagetext {
+    font-size: 64px;
+    width: 300px;
+  }
 
+  .Standoutsagedescription {
+    font-size: 16px;
+    font-family: "GilroySemiBold";
+    font-weight: 400;
+    width: 300px;
+    color: white;
+  }
+  .standoutsageicon {
+    flex-direction: column;
+  }
+  .standoutenrollbtn {
+    width: 80%;
+  }
 
-/* Min Mba Page Small Screen Styling */
+  .standouttextandicon {
+    padding-left: 0px !important;
+  }
 
-  .minimbastudentimage{
-  height: 890px;
-   padding-left: 50px !important;
-   padding-top: 2em !important;
-   width: 100%;
-}
-.Standoutsagetext{
-  font-size: 64px;
-  width: 300px;
- 
-}
+  /* Who is section styling */
+  .whoistext {
+    font-size: 40px;
+    /* width: 300px; */
+  }
+  .whoistheminimbacontentcontainer {
+    flex-direction: column;
+  }
+  .whoiscontentcontainer {
+    width: 80%;
+  }
 
-.Standoutsagedescription{
-   font-size: 16px;
-  font-family: "GilroySemiBold";
-  font-weight: 400;
-  width: 300px;
-  color: white;
-}
-.standoutsageicon{
-  flex-direction: column;
-}
-.standoutenrollbtn{
-  width: 80%;
-}
+  .whoisgeneralcontainer {
+    padding-left: 50px !important;
+    padding-top: 2em !important;
+    height: 1450px;
+  }
 
-.standouttextandicon{
-  padding-left: 0px !important;
-}
+  /* Coursebeenfit section styling */
+  .coursebenefitfirstsection {
+    width: 90%;
+  }
 
-/* Who is section styling */
-.whoistext{
-  font-size: 40px;
-  /* width: 300px; */
+  .generalcoursebenefitcontainer {
+    padding-left: 30px !important;
+  }
 
-}
-.whoistheminimbacontentcontainer{
-  flex-direction:column ;
-}
-.whoiscontentcontainer{
-  width: 80%;
- 
-}
+  /* Why mini Mba section styling */
+  .whyminimbasectioncontainer {
+    padding-left: 0px !important;
+  }
 
-.whoisgeneralcontainer{
-  padding-left: 50px !important;
-  padding-top: 2em !important;
-  height: 1450px;
-}
-
-/* Coursebeenfit section styling */
-.coursebenefitfirstsection{
-  
-  width: 90%;
-}
-
-.generalcoursebenefitcontainer{
-
-  padding-left: 30px !important;
-  
-}
-
- /* Why mini Mba section styling */
-.whyminimbasectioncontainer{
-   padding-left: 0px !important;
-}
-
-/* Mini Mba Moodule Small Screen Styling */
-.minimbamodulecontentcontainer{
-  flex-direction: column;
-  align-items: center;
-}
-.minimbamodulesecondsection{
-  flex-direction: column;
-}
-.minimbamodulegeneralcontainer{
-  padding-top: 6em !important;
-  padding-left: 0px !important;
-  
-}
-.minimbamodulesecondsection{
-   align-items: center;
+  /* Mini Mba Moodule Small Screen Styling */
+  .minimbamodulecontentcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .minimbamodulesecondsection {
+    flex-direction: column;
+  }
+  .minimbamodulegeneralcontainer {
+    padding-top: 6em !important;
+    padding-left: 0px !important;
+  }
+  .minimbamodulesecondsection {
+    align-items: center;
     padding-top: 10px !important;
-       padding-left: 0em !important;
+    padding-left: 0em !important;
+  }
 
-}
+  /* Operation management page small screen styling */
+  .operationmanagementtext {
+    width: 100%;
+  }
+  .operationmanagmentexttittle {
+    font-size: 24px;
+  }
+  .operationmanagementcontainer {
+    padding-left: 30px !important;
+  }
 
+  .aboutthiscoursedetails {
+    width: 90%;
+  }
 
-/* Operation management page small screen styling */
-.operationmanagementtext{
- 
-  width: 100%;
-}
-.operationmanagmentexttittle{
-  font-size: 24px;
-}
-.operationmanagementcontainer{
-  padding-left: 30px !important;
-}
+  .aboutthiscourseiconandtextgeneralcontainer {
+    width: 90%;
 
-.aboutthiscoursedetails{
-  width: 90%;
-}
+    padding-top: 4em !important;
+    padding-left: 2em !important;
 
-.aboutthiscourseiconandtextgeneralcontainer{
-  width: 90%;
-  
-  padding-top: 4em !important;
-  padding-left: 2em !important;
-  
-  margin-top: 5em !important;
-  margin-left: 1em !important;
-}
-.aboutthiscoursefirstsection{
-padding-left: 30px !important;
-}
+    margin-top: 5em !important;
+    margin-left: 1em !important;
+  }
+  .aboutthiscoursefirstsection {
+    padding-left: 30px !important;
+  }
 
-.aboutthiscourse{
-  font-size: 28px;
-  
-}
+  .aboutthiscourse {
+    font-size: 28px;
+  }
 
-/* what you will learn section styling */
-.whatyoulearnpinkcontentcontainer{
-  width: 90%;
-  height: 640px;
-  padding-left: 3em !important;
- 
-}
+  /* what you will learn section styling */
+  .whatyoulearnpinkcontentcontainer {
+    width: 90%;
+    height: 640px;
+    padding-left: 3em !important;
+  }
 
-.whatyoulearnpalebluecontainer{
-  width: 90%;
-  height: 640px;
-  border-radius: 20px;
-  padding-left: 3em !important;
+  .whatyoulearnpalebluecontainer {
+    width: 90%;
+    height: 640px;
+    border-radius: 20px;
+    padding-left: 3em !important;
+  }
 
-}
+  .whatyoulearnlistitems {
+    padding-left: 0em !important;
+  }
 
-.whatyoulearnlistitems{
-  padding-left: 0em !important;
-}
+  /* Operation Management Section styling for small screen */
 
+  .operationmanagementgeneralcontainer {
+    align-items: flex-start;
+    background-color: #011f5b;
+    width: 90%;
+    height: 560px;
+    padding-left: 3em !important;
+    padding-top: 2em !important;
+    margin-left: 20px !important;
+    margin-top: 4em !important;
+    border-radius: 24px;
+  }
 
-/* Operation Management Section styling for small screen */
+  .operationmanagementsectioncontenttext {
+    width: 80%;
+  }
 
-.operationmanagementgeneralcontainer{
-  align-items: flex-start;
-  background-color: #011F5B;
-  width: 90%;
-  height: 560px;
-  padding-left: 3em !important;
-  padding-top: 2em !important;
-  margin-left: 20px !important;
-  margin-top: 4em !important;
-  border-radius: 24px;
-}
+  .operationmanagemenstsecondsection {
+    padding-left: 0em !important;
+  }
+  .enrollbutton2 {
+    width: 80%;
+  }
+  .operationmanagementsectiontext {
+    font-size: 28px;
+  }
 
-.operationmanagementsectioncontenttext{
-  width: 80%;
-}
+  /* View all courses available page for small screen */
+  .availablecoursesandsearchcontainer {
+    flex-direction: column;
+  }
 
-.operationmanagemenstsecondsection{
-  padding-left: 0em !important;
-}
-.enrollbutton2{
-  width: 80%;
-}
-.operationmanagementsectiontext{
-  font-size: 28px;
-  
-}
+  .filtertext {
+    padding-left: 3em !important;
+  }
 
+  .availablecoursessecondsectioncontainer {
+    display: grid;
+    grid-template-columns: repeat(1, 8fr);
+    gap: 5px;
+  }
+  .availablecoursesandsearchcontainer {
+    padding-top: 20px !important;
+  }
 
-/* View all courses available page for small screen */
-.availablecoursesandsearchcontainer{
- flex-direction: column;
-}
+  /* Verify student page for small screen */
+  .verifycertificatestext {
+    width: 300px;
+  }
 
-.filtertext{
-  padding-left: 3em !important;
-}
+  .verifystudenttext {
+    font-size: 44px;
+  }
 
-.availablecoursessecondsectioncontainer{
-  display: grid;
-  grid-template-columns: repeat(1, 8fr);
-  gap: 5px;
- 
-}
-.availablecoursesandsearchcontainer{
-  padding-top: 20px !important;
-}
+  /* Certificate page styling */
 
-/* Verify student page for small screen */
-.verifycertificatestext{
-  width: 300px;
-}
+  .certificateimagetwo {
+    width: 90%;
+  }
+  .certificateimagecontainer {
+    padding-left: 2em !important;
+    padding-top: 2em !important;
+  }
 
-.verifystudenttext{
-  font-size: 44px;
-  
-}
+  .partnerimage {
+    width: 80%;
+    padding-top: 1em !important;
+  }
 
-/* Certificate page styling */
+  .distinguishedpartnerstext {
+    font-size: 16px;
+    font-family: "GilroySemiBold";
+    width: 300px;
+  }
 
-.certificateimagetwo{
-  width: 90%;
-}
-.certificateimagecontainer{
-  padding-left: 2em !important;
-  padding-top: 2em !important;
-}
+  .partnerscardcontainer {
+    width: 350px;
+    height: 700px;
+    padding: 24px !important;
 
-.partnerimage{
-  width: 80%;
-  padding-top: 1em !important;
-}
+    margin-top: 2em !important;
+  }
+  .partnerscardcontainer {
+    flex-direction: column;
+  }
+  .pluralcodedescriptions {
+    width: 320px;
+  }
+  .pluralcodetextcontainer {
+    padding-top: 2em !important;
+  }
+  .pluralcodelogo {
+    padding-top: 2em !important;
+  }
+  .partnersandaccreditorstext {
+    padding-top: 1em !important;
+  }
 
-.distinguishedpartnerstext{
-  font-size: 16px;
-  font-family: 'GilroySemiBold';
-  width: 300px;
-}
+  /* About sage institue page styling */
+  .thesageinstituteabout {
+    font-size: 64px;
+    font-family: "GilroyBlack";
+    color: #011f5b;
+    width: 320px;
+  }
+  .aboutsageimage {
+    width: 90%;
+  }
 
-.partnerscardcontainer{
- 
-  width: 350px;
-  height: 700px;
-  padding: 24px !important;
- 
-  margin-top: 2em !important;
-}
-.partnerscardcontainer{
-  flex-direction: column;
-}
-.pluralcodedescriptions{
-   width: 320px;
-}
-.pluralcodetextcontainer{
-  padding-top: 2em !important;
-}
-.pluralcodelogo{
-  padding-top: 2em !important;
-}
-.partnersandaccreditorstext{
-  padding-top: 1em !important;
-}
+  .thissageinsitituteaboutdescription {
+    font-size: 16px;
+    font-family: "GilorySemiBold";
+    width: 327px;
+    color: #4e4e4e;
+  }
 
-/* About sage institue page styling */
-.thesageinstituteabout{
-  font-size: 64px;
-  font-family: 'GilroyBlack';
-  color: #011F5B;
-  width: 320px;
-}
-.aboutsageimage{
-  width: 90%;
- 
-}
+  .sagelayergeneralcontainer {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 4em !important;
+  }
 
-.thissageinsitituteaboutdescription{
-  font-size: 16px;
-  font-family: 'GilorySemiBold';
-  width: 327px;
-  color: #4E4E4E;
+  .sagewhoiscontentcontainer {
+    width: 90%;
+  }
 
-}
+  .ourculturegeneralcontainer {
+    padding-left: 2em !important;
+  }
 
-.sagelayergeneralcontainer{
-  flex-direction: column;
-  gap: 30px;
-  margin-top: 4em !important;
-}
+  .aboutsageourimpactsecondsectioncontainer {
+    width: 90%;
+    height: 540px;
+    position: relative;
+    left: 0px;
+    margin-top: 2em !important;
+  }
 
-.sagewhoiscontentcontainer{
-  
-  width: 90%;
-}
+  .overtheyearstext {
+    width: 220px;
+  }
 
-.ourculturegeneralcontainer{
-  padding-left: 2em !important;
+  .impactimage {
+    width: 90%;
+    height: 300px;
+  }
 
-}
+  .aboutsageourimpactgeneralcontainer {
+    padding-left: 2em !important;
+  }
 
-.aboutsageourimpactsecondsectioncontainer{
+  .reachouttousimage {
+    width: 90%;
+  }
 
-  width: 90%;
-  height: 540px; 
-  position: relative;
-  left: 0px;
-  margin-top: 2em !important;   
-  
-  
-}
+  /* login small screen styling */
+  .loginformcontainer {
+    width: 90%;
+    height: 450px !important;
+  }
+  .logintext {
+    font-size: 26px;
+  }
 
-.overtheyearstext{
-  width: 220px;
- 
-}
-
-.impactimage{
-  width: 90%;
-  height: 300px;
- 
-}
-
-.aboutsageourimpactgeneralcontainer{
-  padding-left: 2em !important;
-
-}
-
-.reachouttousimage{
-  width: 90%;
-}
-
-
-/* login small screen styling */
-.loginformcontainer{
-  width: 90%;
-  height: 450px !important;
-   
-}
-.logintext{
-  font-size: 26px;
-  
-}
-
-/* Create small screen account */
-.createyouraccountcontainer{
-  border-radius: 22px;
+  /* Create small screen account */
+  .createyouraccountcontainer {
+    border-radius: 22px;
     width: 90%;
     height: 700px !important;
-    
+  }
+  .createyouraccounttext {
+    font-size: 26px;
+  }
 }
-.createyouraccounttext{
-  font-size: 26px;
-}
-
-}
-
 
 /* Ipad screen styling */
-@media(min-width:700px) and (max-width:1200px){
-
-
-   #menuicon {
+@media (min-width: 700px) and (max-width: 1200px) {
+  #menuicon {
     display: block;
     font-size: 24px;
     cursor: pointer;
@@ -2815,11 +2720,11 @@ padding-left: 30px !important;
   .certificatecoursesecondsection {
     align-items: center;
   }
-  .certificatecorsescontent{
+  .certificatecorsescontent {
     width: 80%;
     margin-top: 20px !important;
   }
-  .certificatecourseimage{
+  .certificatecourseimage {
     width: 95%;
   }
 
@@ -2928,16 +2833,14 @@ padding-left: 30px !important;
     padding-left: 2em !important;
     padding-top: 4em !important;
   }
-/* Student section styling ipad */
+  /* Student section styling ipad */
   .videoimagecontainer {
     width: 100%;
   }
 
   .playbutton {
- 
-  top: 55%;
- 
-} 
+    top: 55%;
+  }
 
   .sageminibadescription {
     width: 90%;
@@ -3017,347 +2920,301 @@ padding-left: 30px !important;
   }
 
   /* footstyling small screen */
-  .footersecondsection{
+  .footersecondsection {
     flex-direction: column;
     padding-top: 30px !important;
   }
-  .footerthirdsection{
+  .footerthirdsection {
     flex-direction: column;
     padding-top: 1em !important;
     padding-right: 0px !important;
   }
-  .footertittle{
+  .footertittle {
     padding-top: 10px !important;
   }
-  .footerlistitems{
+  .footerlistitems {
     width: 100%;
   }
 
-  .copyrighttext{
+  .copyrighttext {
     width: 90%;
   }
 
+  /* Min Mba Page Small Screen Styling */
 
+  .minimbastudentimage {
+    height: 890px;
+    padding-left: 50px !important;
+    padding-top: 2em !important;
+    width: 100%;
+  }
+  .Standoutsagetext {
+    font-size: 64px;
+    width: 300px;
+  }
 
+  .Standoutsagedescription {
+    font-size: 16px;
+    font-family: "GilroySemiBold";
+    font-weight: 400;
+    width: 300px;
+    color: white;
+  }
+  .standoutsageicon {
+    flex-direction: column;
+  }
+  .standoutenrollbtn {
+    width: 80%;
+  }
 
-/* Min Mba Page Small Screen Styling */
+  .standouttextandicon {
+    padding-left: 0px !important;
+  }
 
-  .minimbastudentimage{
-  height: 890px;
-   padding-left: 50px !important;
-   padding-top: 2em !important;
-   width: 100%;
-}
-.Standoutsagetext{
-  font-size: 64px;
-  width: 300px;
- 
-}
+  /* Who is section styling */
+  .whoistext {
+    font-size: 40px;
+    /* width: 300px; */
+  }
+  .whoistheminimbacontentcontainer {
+    flex-direction: column;
+  }
+  .whoiscontentcontainer {
+    width: 80%;
+  }
 
-.Standoutsagedescription{
-   font-size: 16px;
-  font-family: "GilroySemiBold";
-  font-weight: 400;
-  width: 300px;
-  color: white;
-}
-.standoutsageicon{
-  flex-direction: column;
-}
-.standoutenrollbtn{
-  width: 80%;
-}
+  .whoisgeneralcontainer {
+    padding-left: 50px !important;
+    padding-top: 2em !important;
+    height: 1450px;
+  }
 
-.standouttextandicon{
-  padding-left: 0px !important;
-}
+  /* Why mini Mba section styling */
+  .whyminimbasectioncontainer {
+    padding-left: 0px !important;
+  }
 
-/* Who is section styling */
-.whoistext{
-  font-size: 40px;
-  /* width: 300px; */
-
-}
-.whoistheminimbacontentcontainer{
-  flex-direction:column ;
-}
-.whoiscontentcontainer{
-  width: 80%;
- 
-}
-
-.whoisgeneralcontainer{
-  padding-left: 50px !important;
-  padding-top: 2em !important;
-  height: 1450px;
-}
-
- /* Why mini Mba section styling */
-.whyminimbasectioncontainer{
-   padding-left: 0px !important;
-}
-
-/* Mini Mba Moodule Small Screen Styling */
-.minimbamodulecontentcontainer{
-  flex-direction: column;
-  align-items: center;
-}
-.minimbamodulesecondsection{
-  flex-direction: column;
-}
-.minimbamodulegeneralcontainer{
-  padding-top: 6em !important;
-  padding-left: 0px !important;
-  
-}
-.minimbamodulesecondsection{
-   align-items: center;
+  /* Mini Mba Moodule Small Screen Styling */
+  .minimbamodulecontentcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .minimbamodulesecondsection {
+    flex-direction: column;
+  }
+  .minimbamodulegeneralcontainer {
+    padding-top: 6em !important;
+    padding-left: 0px !important;
+  }
+  .minimbamodulesecondsection {
+    align-items: center;
     padding-top: 10px !important;
-       padding-left: 0em !important;
+    padding-left: 0em !important;
+  }
 
-}
+  /* Operation management page ipad screen styling */
+  .operationmanagementtext {
+    width: 100%;
+  }
+  .operationmanagmentexttittle {
+    font-size: 24px;
+  }
+  .operationmanagementcontainer {
+    padding-left: 30px !important;
+  }
 
+  .aboutthiscoursedetails {
+    width: 90%;
+  }
 
-/* Operation management page ipad screen styling */
-.operationmanagementtext{
- 
-  width: 100%;
-}
-.operationmanagmentexttittle{
-  font-size: 24px;
-}
-.operationmanagementcontainer{
-  padding-left: 30px !important;
-  
-}
+  .aboutthiscourseiconandtextgeneralcontainer {
+    width: 90%;
 
-.aboutthiscoursedetails{
-  width: 90%;
-}
+    padding-top: 4em !important;
+    padding-left: 2em !important;
 
-.aboutthiscourseiconandtextgeneralcontainer{
-  width: 90%;
-  
-  padding-top: 4em !important;
-  padding-left: 2em !important;
-  
-  margin-top: 5em !important;
-  margin-left: 1em !important;
-}
-.aboutthiscoursefirstsection{
-padding-left: 30px !important;
-}
+    margin-top: 5em !important;
+    margin-left: 1em !important;
+  }
+  .aboutthiscoursefirstsection {
+    padding-left: 30px !important;
+  }
 
-.aboutthiscourse{
-  font-size: 28px;
-  
-}
+  .aboutthiscourse {
+    font-size: 28px;
+  }
 
-/* coursebenefit sectioon styling */
-.generalcoursebenefitcontainer{
+  /* coursebenefit sectioon styling */
+  .generalcoursebenefitcontainer {
+    padding-left: 30px !important;
+  }
+  /* what you will learn section styling */
+  .whatyoulearnpinkcontentcontainer {
+    width: 90%;
+    height: 640px;
+    padding-left: 3em !important;
+  }
 
-  padding-left: 30px !important;
-  
-}
-/* what you will learn section styling */
-.whatyoulearnpinkcontentcontainer{
-  width: 90%;
-  height: 640px;
-  padding-left: 3em !important;
- 
-}
+  .whatyoulearnpalebluecontainer {
+    width: 90%;
+    height: 640px;
+    border-radius: 20px;
+    padding-left: 3em !important;
+  }
 
-.whatyoulearnpalebluecontainer{
-  width: 90%;
-  height: 640px;
-  border-radius: 20px;
-  padding-left: 3em !important;
+  .whatyoulearnlistitems {
+    padding-left: 0em !important;
+  }
 
-}
+  /* Operation Management Section styling for ipad screen */
 
-.whatyoulearnlistitems{
-  padding-left: 0em !important;
-}
+  .operationmanagementgeneralcontainer {
+    align-items: flex-start;
+    background-color: #011f5b;
+    width: 90%;
+    height: 560px;
+    padding-left: 3em !important;
+    padding-top: 2em !important;
+    margin-left: 20px !important;
+    margin-top: 4em !important;
+    border-radius: 24px;
+  }
 
+  .operationmanagementsectioncontenttext {
+    width: 80%;
+  }
 
-/* Operation Management Section styling for ipad screen */
+  .operationmanagemenstsecondsection {
+    padding-left: 0em !important;
+  }
+  .enrollbutton2 {
+    width: 80%;
+  }
+  .operationmanagementsectiontext {
+    font-size: 28px;
+  }
 
-.operationmanagementgeneralcontainer{
-  align-items: flex-start;
-  background-color: #011F5B;
-  width: 90%;
-  height: 560px;
-  padding-left: 3em !important;
-  padding-top: 2em !important;
-  margin-left: 20px !important;
-  margin-top: 4em !important;
-  border-radius: 24px;
-}
+  /* View all courses available page for ipad screen */
+  .availablecoursesandsearchcontainer {
+    flex-direction: column;
+    padding-top: 20px !important;
+  }
 
-.operationmanagementsectioncontenttext{
-  width: 80%;
-}
+  .availablecoursessecondsectioncontainer {
+    display: grid;
+    grid-template-columns: repeat(1, 8fr);
+    gap: 5px;
+  }
 
-.operationmanagemenstsecondsection{
-  padding-left: 0em !important;
-}
-.enrollbutton2{
-  width: 80%;
-}
-.operationmanagementsectiontext{
-  font-size: 28px;
-  
-}
+  /* Verify student page for ipad screen */
+  .verifycertificatestext {
+    width: 300px;
+  }
 
+  .verifystudenttext {
+    font-size: 44px;
+  }
 
-/* View all courses available page for ipad screen */
-.availablecoursesandsearchcontainer{
- flex-direction: column;
- padding-top: 20px !important;
-}
+  /* Certificate page styling */
 
-.availablecoursessecondsectioncontainer{
-  display: grid;
-  grid-template-columns: repeat(1, 8fr);
-  gap: 5px;
- 
-}
+  .certificateimage {
+    width: 80%;
+  }
+  .certificateimagecontainer {
+    padding-left: 2em !important;
+    padding-top: 2em !important;
+  }
 
-/* Verify student page for ipad screen */
-.verifycertificatestext{
-  width: 300px;
-}
+  .partnerimage {
+    width: 90%;
+    padding-top: 3em !important;
+  }
 
-.verifystudenttext{
-  font-size: 44px;
-  
-}
+  .partnerscardcontainer {
+    width: 700px;
+    height: 700px;
+    padding: 24px !important;
 
-/* Certificate page styling */
+    margin-top: 2em !important;
+  }
+  .partnerscardcontainer {
+    flex-direction: column;
+  }
+  .pluralcodedescriptions {
+    width: 320px;
+  }
+  .pluralcodetextcontainer {
+    padding-top: 2em !important;
+  }
+  .pluralcodelogo {
+    padding-top: 2em !important;
+  }
+  .partnersandaccreditorstext {
+    padding-top: 1em !important;
+  }
 
-.certificateimage{
-  width: 80%;
-}
-.certificateimagecontainer{
-  padding-left: 2em !important;
-  padding-top: 2em !important;
-}
+  /* About sage institue ipad page styling */
 
-.partnerimage{
-  width: 90%;
-  padding-top: 3em !important;
-}
+  .aboutsageimage {
+    width: 90%;
+  }
 
+  .sagelayergeneralcontainer {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 4em !important;
+    align-items: center;
+  }
 
-.partnerscardcontainer{
- width: 700px;
-  height: 700px;
-  padding: 24px !important;
- 
-  margin-top: 2em !important;
-}
-.partnerscardcontainer{
-  flex-direction: column;
-}
-.pluralcodedescriptions{
-   width: 320px;
-}
-.pluralcodetextcontainer{
-  padding-top: 2em !important;
-}
-.pluralcodelogo{
-  padding-top: 2em !important;
-}
-.partnersandaccreditorstext{
-  padding-top: 1em !important;
-}
+  .sagewhoiscontentcontainer {
+    width: 90%;
+  }
 
-/* About sage institue ipad page styling */
+  .ourculturegeneralcontainer {
+    padding-left: 1em !important;
+  }
 
-.aboutsageimage{
-  width: 90%;
- 
-}
+  .aboutsageourimpactsecondsectioncontainer {
+    width: 90%;
+    height: 340px;
+    position: relative;
+    left: 0px;
+    margin-top: 2em !important;
+  }
 
-.sagelayergeneralcontainer{
-  flex-direction: column;
-  gap: 30px;
-  margin-top: 4em !important;
-  align-items: center;
-}
+  .overtheyearstext {
+    width: 500px;
+  }
 
-.sagewhoiscontentcontainer{
-  
-  width: 90%;
-  
+  .impactimage {
+    width: 90%;
+    height: 500px;
+  }
 
-}
+  .aboutsageourimpactgeneralcontainer {
+    padding-left: 3em !important;
+  }
 
-.ourculturegeneralcontainer{
-  padding-left: 1em !important;
+  .reachouttousimage {
+    padding-top: 3em !important;
+  }
 
-}
+  /* login  screen ipad styling */
+  .loginformcontainer {
+    height: 500px !important;
+    width: 90%;
+  }
 
-.aboutsageourimpactsecondsectioncontainer{
+  /* create your accout ipad screen styling */
 
-  width: 90%;
-  height: 340px; 
-  position: relative;
-  left: 0px;
-  margin-top: 2em !important;
-  
- 
-  
-  
-}
-
-.overtheyearstext{
- 
-  width: 500px;
- 
-}
-
-.impactimage{
-  width: 90%;
-  height: 500px;
- 
-}
-
-.aboutsageourimpactgeneralcontainer{
-  padding-left: 3em !important;
-
-}
-
-.reachouttousimage{
-  padding-top: 3em !important;
-}
-
-
-
-/* login  screen ipad styling */
-.loginformcontainer{
-  height: 500px !important;
-  width: 90%;
-  
-   
-}
-
-/* create your accout ipad screen styling */
-
-.createyouraccountcontainer{
+  .createyouraccountcontainer {
     width: 90%;
     height: 790px !important;
-    
+  }
 }
 
-
-
-}
-
-@media(min-width:600px) and (max-width:700px){
-
-  
-   #menuicon {
+@media (min-width: 600px) and (max-width: 700px) {
+  #menuicon {
     display: block;
     font-size: 24px;
     cursor: pointer;
@@ -3484,11 +3341,11 @@ padding-left: 30px !important;
   .certificatecoursesecondsection {
     align-items: center;
   }
-  .certificatecorsescontent{
+  .certificatecorsescontent {
     width: 80%;
     margin-top: 20px !important;
   }
-  .certificatecourseimage{
+  .certificatecourseimage {
     width: 95%;
   }
 
@@ -3597,16 +3454,14 @@ padding-left: 30px !important;
     padding-left: 2em !important;
     padding-top: 4em !important;
   }
-/* Student section styling ipad */
+  /* Student section styling ipad */
   .videoimagecontainer {
     width: 100%;
   }
 
   .playbutton {
- 
-  top: 55%;
- 
-} 
+    top: 55%;
+  }
 
   .sageminibadescription {
     width: 90%;
@@ -3686,353 +3541,532 @@ padding-left: 30px !important;
   }
 
   /* footstyling small screen */
-  .footersecondsection{
+  .footersecondsection {
     flex-direction: column;
     padding-top: 30px !important;
   }
-  .footerthirdsection{
+  .footerthirdsection {
     flex-direction: column;
     padding-top: 1em !important;
     padding-right: 0px !important;
   }
-  .footertittle{
+  .footertittle {
     padding-top: 10px !important;
   }
-  .footerlistitems{
+  .footerlistitems {
     width: 100%;
   }
 
-  .copyrighttext{
+  .copyrighttext {
     width: 90%;
   }
 
+  /* Min Mba Page Small Screen Styling */
 
+  .minimbastudentimage {
+    height: 890px;
+    padding-left: 50px !important;
+    padding-top: 2em !important;
+    width: 100%;
+  }
+  .Standoutsagetext {
+    font-size: 64px;
+    width: 300px;
+  }
 
+  .Standoutsagedescription {
+    font-size: 16px;
+    font-family: "GilroySemiBold";
+    font-weight: 400;
+    width: 300px;
+    color: white;
+  }
+  .standoutsageicon {
+    flex-direction: column;
+  }
+  .standoutenrollbtn {
+    width: 80%;
+  }
 
-/* Min Mba Page Small Screen Styling */
+  .standouttextandicon {
+    padding-left: 0px !important;
+  }
 
-  .minimbastudentimage{
-  height: 890px;
-   padding-left: 50px !important;
-   padding-top: 2em !important;
-   width: 100%;
-}
-.Standoutsagetext{
-  font-size: 64px;
-  width: 300px;
- 
-}
+  /* Who is section styling */
+  .whoistext {
+    font-size: 40px;
+    /* width: 300px; */
+  }
+  .whoistheminimbacontentcontainer {
+    flex-direction: column;
+  }
+  .whoiscontentcontainer {
+    width: 80%;
+  }
 
-.Standoutsagedescription{
-   font-size: 16px;
-  font-family: "GilroySemiBold";
-  font-weight: 400;
-  width: 300px;
-  color: white;
-}
-.standoutsageicon{
-  flex-direction: column;
-}
-.standoutenrollbtn{
-  width: 80%;
-}
+  .whoisgeneralcontainer {
+    padding-left: 50px !important;
+    padding-top: 2em !important;
+    height: 1450px;
+  }
 
-.standouttextandicon{
-  padding-left: 0px !important;
-}
+  /* Why mini Mba section styling */
+  .whyminimbasectioncontainer {
+    padding-left: 0px !important;
+  }
 
-/* Who is section styling */
-.whoistext{
-  font-size: 40px;
-  /* width: 300px; */
-
-}
-.whoistheminimbacontentcontainer{
-  flex-direction:column ;
-}
-.whoiscontentcontainer{
-  width: 80%;
- 
-}
-
-.whoisgeneralcontainer{
-  padding-left: 50px !important;
-  padding-top: 2em !important;
-  height: 1450px;
-}
-
- /* Why mini Mba section styling */
-.whyminimbasectioncontainer{
-   padding-left: 0px !important;
-}
-
-/* Mini Mba Moodule Small Screen Styling */
-.minimbamodulecontentcontainer{
-  flex-direction: column;
-  align-items: center;
-}
-.minimbamodulesecondsection{
-  flex-direction: column;
-}
-.minimbamodulegeneralcontainer{
-  padding-top: 6em !important;
-  padding-left: 0px !important;
-  
-}
-.minimbamodulesecondsection{
-   align-items: center;
+  /* Mini Mba Moodule Small Screen Styling */
+  .minimbamodulecontentcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .minimbamodulesecondsection {
+    flex-direction: column;
+  }
+  .minimbamodulegeneralcontainer {
+    padding-top: 6em !important;
+    padding-left: 0px !important;
+  }
+  .minimbamodulesecondsection {
+    align-items: center;
     padding-top: 10px !important;
-       padding-left: 0em !important;
+    padding-left: 0em !important;
+  }
 
+  /* Operation management page ipad screen styling */
+  .operationmanagementtext {
+    width: 100%;
+  }
+  .operationmanagmentexttittle {
+    font-size: 24px;
+  }
+  .operationmanagementcontainer {
+    padding-left: 30px !important;
+  }
+
+  .aboutthiscoursedetails {
+    width: 90%;
+  }
+
+  .aboutthiscourseiconandtextgeneralcontainer {
+    width: 90%;
+
+    padding-top: 4em !important;
+    padding-left: 2em !important;
+
+    margin-top: 5em !important;
+    margin-left: 1em !important;
+  }
+  .aboutthiscoursefirstsection {
+    padding-left: 30px !important;
+  }
+
+  .aboutthiscourse {
+    font-size: 28px;
+  }
+
+  /* coursebenefit sectioon styling */
+  .generalcoursebenefitcontainer {
+    padding-left: 30px !important;
+  }
+  /* what you will learn section styling */
+  .whatyoulearnpinkcontentcontainer {
+    width: 90%;
+    height: 640px;
+    padding-left: 3em !important;
+  }
+
+  .whatyoulearnpalebluecontainer {
+    width: 90%;
+    height: 640px;
+    border-radius: 20px;
+    padding-left: 3em !important;
+  }
+
+  .whatyoulearnlistitems {
+    padding-left: 0em !important;
+  }
+
+  /* Operation Management Section styling for ipad screen */
+
+  .operationmanagementgeneralcontainer {
+    align-items: flex-start;
+    background-color: #011f5b;
+    width: 90%;
+    height: 560px;
+    padding-left: 3em !important;
+    padding-top: 2em !important;
+    margin-left: 20px !important;
+    margin-top: 4em !important;
+    border-radius: 24px;
+  }
+
+  .operationmanagementsectioncontenttext {
+    width: 80%;
+  }
+
+  .operationmanagemenstsecondsection {
+    padding-left: 0em !important;
+  }
+  .enrollbutton2 {
+    width: 80%;
+  }
+  .operationmanagementsectiontext {
+    font-size: 28px;
+  }
+
+  /* View all courses available page for ipad screen */
+  .availablecoursesandsearchcontainer {
+    flex-direction: column;
+    padding-top: 20px !important;
+  }
+
+  .availablecoursessecondsectioncontainer {
+    display: grid;
+    grid-template-columns: repeat(1, 8fr);
+    gap: 5px;
+  }
+
+  /* Verify student page for ipad screen */
+  .verifycertificatestext {
+    width: 300px;
+  }
+
+  .verifystudenttext {
+    font-size: 44px;
+  }
+
+  /* Certificate page styling */
+
+  .certificateimagetwo {
+    width: 90%;
+  }
+  .certificateimagecontainer {
+    padding-left: 2em !important;
+    padding-top: 2em !important;
+  }
+
+  .partnerimage {
+    width: 90%;
+    padding-top: 3em !important;
+  }
+
+  .partnerscardcontainer {
+    width: 700px;
+    height: 700px;
+    padding: 24px !important;
+
+    margin-top: 2em !important;
+  }
+  .partnerscardcontainer {
+    flex-direction: column;
+  }
+  .pluralcodedescriptions {
+    width: 320px;
+  }
+  .pluralcodetextcontainer {
+    padding-top: 2em !important;
+  }
+  .pluralcodelogo {
+    padding-top: 2em !important;
+  }
+  .partnersandaccreditorstext {
+    padding-top: 1em !important;
+  }
+
+  /* About sage institue ipad page styling */
+
+  .aboutsageimage {
+    width: 90%;
+  }
+
+  .sagelayergeneralcontainer {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 4em !important;
+    align-items: center;
+  }
+
+  .sagewhoiscontentcontainer {
+    width: 90%;
+  }
+
+  .ourculturegeneralcontainer {
+    padding-left: 1em !important;
+  }
+
+  .aboutsageourimpactsecondsectioncontainer {
+    width: 90%;
+    height: 340px;
+    position: relative;
+    left: 0px;
+    margin-top: 2em !important;
+  }
+
+  .overtheyearstext {
+    width: 420px;
+  }
+
+  .impactimage {
+    width: 90%;
+    height: 500px;
+  }
+
+  .aboutsageourimpactgeneralcontainer {
+    padding-left: 3em !important;
+  }
+
+  .thesageinstituteabout {
+    font-size: 64px;
+    font-family: "GilroyBlack";
+    color: #011f5b;
+    width: 520px;
+  }
+
+  /* Create small screen account */
+  .createyouraccountcontainer {
+    width: 90%;
+    height: 700px !important;
+  }
+  .createyouraccounttext {
+    font-size: 26px;
+  }
+
+  /* Create small screen account */
+  .createyouraccountcontainer {
+    border-radius: 22px;
+    width: 90%;
+    height: 700px !important;
+  }
+  .createyouraccounttext {
+    font-size: 26px;
+  }
 }
 
+/* checkout styles */
 
-/* Operation management page ipad screen styling */
-.operationmanagementtext{
- 
-  width: 100%;
-}
-.operationmanagmentexttittle{
-  font-size: 24px;
-}
-.operationmanagementcontainer{
-  padding-left: 30px !important;
-  
+.checkout-container {
+  margin: 0 auto !important;
+  max-width: 1200px !important;
+  padding: 40px 20px !important;
+  min-height: 80vh;
 }
 
-.aboutthiscoursedetails{
-  width: 90%;
+.checkout-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px !important;
 }
 
-.aboutthiscourseiconandtextgeneralcontainer{
-  width: 90%;
-  
-  padding-top: 4em !important;
-  padding-left: 2em !important;
-  
-  margin-top: 5em !important;
-  margin-left: 1em !important;
-}
-.aboutthiscoursefirstsection{
-padding-left: 30px !important;
-}
-
-.aboutthiscourse{
-  font-size: 28px;
-  
-}
-
-/* coursebenefit sectioon styling */
-.generalcoursebenefitcontainer{
-
-  padding-left: 30px !important;
-  
-}
-/* what you will learn section styling */
-.whatyoulearnpinkcontentcontainer{
-  width: 90%;
-  height: 640px;
-  padding-left: 3em !important;
- 
-}
-
-.whatyoulearnpalebluecontainer{
-  width: 90%;
-  height: 640px;
-  border-radius: 20px;
-  padding-left: 3em !important;
-
-}
-
-.whatyoulearnlistitems{
-  padding-left: 0em !important;
-}
-
-
-/* Operation Management Section styling for ipad screen */
-
-.operationmanagementgeneralcontainer{
-  align-items: flex-start;
-  background-color: #011F5B;
-  width: 90%;
-  height: 560px;
-  padding-left: 3em !important;
-  padding-top: 2em !important;
-  margin-left: 20px !important;
-  margin-top: 4em !important;
-  border-radius: 24px;
-}
-
-.operationmanagementsectioncontenttext{
-  width: 80%;
-}
-
-.operationmanagemenstsecondsection{
-  padding-left: 0em !important;
-}
-.enrollbutton2{
-  width: 80%;
-}
-.operationmanagementsectiontext{
-  font-size: 28px;
-  
-}
-
-
-/* View all courses available page for ipad screen */
-.availablecoursesandsearchcontainer{
- flex-direction: column;
- padding-top: 20px !important;
-}
-
-.availablecoursessecondsectioncontainer{
+.checkout-content {
   display: grid;
-  grid-template-columns: repeat(1, 8fr);
-  gap: 5px;
- 
-}
-
-/* Verify student page for ipad screen */
-.verifycertificatestext{
-  width: 300px;
-}
-
-.verifystudenttext{
-  font-size: 44px;
-  
-}
-
-/* Certificate page styling */
-
-.certificateimagetwo{
-  width: 90%;
-}
-.certificateimagecontainer{
-  padding-left: 2em !important;
-  padding-top: 2em !important;
-}
-
-.partnerimage{
-  width: 90%;
-  padding-top: 3em !important;
-}
-
-
-.partnerscardcontainer{
- width: 700px;
-  height: 700px;
-  padding: 24px !important;
- 
-  margin-top: 2em !important;
-}
-.partnerscardcontainer{
-  flex-direction: column;
-}
-.pluralcodedescriptions{
-   width: 320px;
-}
-.pluralcodetextcontainer{
-  padding-top: 2em !important;
-}
-.pluralcodelogo{
-  padding-top: 2em !important;
-}
-.partnersandaccreditorstext{
-  padding-top: 1em !important;
-}
-
-
-
-
-/* About sage institue ipad page styling */
-
-.aboutsageimage{
-  width: 90%;
- 
-}
-
-.sagelayergeneralcontainer{
-  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin-top: 4em !important;
+}
+
+.section-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #011f5b;
+  margin-bottom: 20px !important;
+}
+
+.checkout-container .form-group {
+  margin-bottom: 20px !important;
+}
+
+.checkout-container .form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 8px !important;
+  color: #333;
+}
+
+.checkout-container .form-input {
+  width: 100%;
+  padding: 10px 15px !important;
+  font-size: 1rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.checkout-container .form-input:focus {
+  outline: none;
+  border-color: #990000;
+}
+
+.form-input::placeholder {
+  color: #a0a6ad;
+}
+
+.checkout-container .note-text {
+  font-size: 1.2rem !important;
+  line-height: 1.5;
+}
+
+.checkout-container .note-label {
+  color: #990000;
+  font-weight: 600;
+  margin-bottom: 5px !important;
+}
+
+.checkout-container .summary-section .price-row {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 15px !important;
+  border-bottom: 2px solid #e1e5e9;
+  padding-bottom: 6px !important;
 }
 
-.sagewhoiscontentcontainer{
+.checkout-container .summary-section .total {
+  font-weight: 600;
+}
+
+.checkout-container .summary-section .order-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #011f5b;
+  margin-bottom: 20px !important;
+  margin-top: 45px !important;
+}
+
+.checkout-container .summary-section .course-item {
+  display: flex;
   
-  width: 90%;
-  
-
+ 
+  font-size: 1.3rem;
+  margin-bottom: 15px !important;
 }
 
-.ourculturegeneralcontainer{
-  padding-left: 1em !important;
-
+.checkout-container .summary-section .course-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 1.3;
+  font-size: 1.1rem;
 }
 
-.aboutsageourimpactsecondsectioncontainer{
+.checkout-container .summary-section .course-price {
+  font-size: 1.3rem;
+}
 
-  width: 90%;
-  height: 340px; 
+.checkout-container .summary-section .course-image {
+  display: flex !important;
+    margin-right: 0px !important;
+    padding: 0%;
+      align-items: center;
+          justify-content: center;
+ 
+    
+}
+ 
+.checkout-container .summary-section .course-image img {
+  width: 50% ;
+  height: 100%;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-right: 20px !important;
+}
+
+.checkout-container .summary-section .pay-button {
+  width: 60%;
+  color: white;
+  border: none;
+  margin-top: 20px !important;
+  background: #990000;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  height: 40px;
+  margin-left: 120px !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-container .summary-section .pay-button:hover {
+  background: #7a0000;
+}
+
+.pay-button:active {
+  transform: translateY(0);
+}
+
+/* Payment Success Modal Styles */
+.success-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.success-modal {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
   position: relative;
-  left: 0px;
-  margin-top: 2em !important;
-  
- 
-  
-  
-}
-
-.overtheyearstext{
- 
-  width: 420px;
- 
-}
-
-.impactimage{
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
   width: 90%;
-  height: 500px;
- 
 }
 
-.aboutsageourimpactgeneralcontainer{
-  padding-left: 3em !important;
-
+.success-modal p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 100px 120px !important;
 }
 
-.thesageinstituteabout{
-  font-size: 64px;
-  font-family: 'GilroyBlack';
-  color: #011F5B;
-  width: 520px;
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #9b0000;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
-/* Create small screen account */
-.createyouraccountcontainer{
-    width: 90%;
-    height: 700px !important;
-    
-}
-.createyouraccounttext{
-  font-size: 26px;
+.close-button:hover {
+  background-color: #7a0000;
 }
 
-/* Create small screen account */
-.createyouraccountcontainer{
-  border-radius: 22px;
-    width: 90%;
-    height: 700px !important;
-    
-}
-.createyouraccounttext{
-  font-size: 26px;
+.close-button i {
+  font-size: 18px;
 }
 
+@media (max-width: 768px) {
+  .checkout-container .checkout-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 
+  .checkout-container .checkout-header {
+    font-size: 2rem;
+  }
+
+  .success-modal {
+    padding: 30px 20px;
+    max-width: 350px;
+  }
+
+  .success-modal p {
+    font-size: 20px;
+  }
 }
-
-
-
-
-
-
